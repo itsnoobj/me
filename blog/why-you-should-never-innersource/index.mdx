@@ -1,0 +1,104 @@
+---
+slug: why-you-should-never-innersource
+title: "Why You Should Never Do InnerSource"
+authors: [jeevan_dc]
+tags: [innersource, open-source, culture, engineering]
+date: 2026-03-10
+hide_date: true
+---
+
+Look, I get it. Someone at a conference said "InnerSource" and now Slack is buzzing — or is it Teams? Honestly, who can keep track anymore. People are sharing links to the [InnerSource Commons](https://innersourcecommons.org/), talking about "breaking down silos" and "cross-team collaboration" like they've discovered fire. Let me save you the trouble — here's why you should absolutely, categorically, *never* do InnerSource.
+
+<!-- truncate -->
+
+## Why Would You Want to Reuse Code?
+
+There's something deeply noble about writing the same authentication module for the fourteenth time. Each team gets to make their own mistakes, discover their own edge cases, and spend three sprints building what already exists two repositories over. That's not waste — that's *character building*.
+
+InnerSource would let teams discover, fork, and contribute to shared codebases across the organisation. You'd end up with fewer duplicated services, consistent patterns, and engineers who actually know what other teams are building. Sounds exhausting, honestly.
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./this-is-fine.gif').default} alt="This is fine" style={{maxWidth: '480px', width: '100%'}} />
+</div>
+
+## Who Needs Faster Onboarding?
+
+New engineers joining a team should earn their stripes the old-fashioned way — six weeks of deciphering tribal knowledge, guessing which Slack channel has the real answer (or was it Teams? Wait, are we back on Slack now?), and reverse-engineering a service that hasn't been touched since someone named "Dave" left in 2022.
+
+With InnerSource, codebases are open and discoverable. There's documentation. There are contribution guidelines. New joiners can read actual code from across the org on day one and start contributing within their first week. But where's the *mystery* in that? Where's the hazing?
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./confused-developer.gif').default} alt="Confused developer" style={{maxWidth: '480px', width: '100%'}} />
+</div>
+
+## Silos Are Cozy, Actually
+
+A team has its own repo, its own conventions, its own deployment pipeline that only two people understand, and its own Confluence space that hasn't been updated since the last reorg. That's not dysfunction — that's *autonomy*.
+
+InnerSource breaks down these beautiful walls. Suddenly, a frontend engineer from another team can submit a pull request to fix a bug in your API. A platform engineer can improve your CI pipeline without filing a ticket and waiting three sprints. People start *talking to each other*. Across team boundaries. Voluntarily. Horrifying.
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./nope.gif').default} alt="Nope" style={{maxWidth: '480px', width: '100%'}} />
+</div>
+
+## Documentation? Wildly Overrated
+
+If your code needs documentation, maybe the code just isn't good enough. Real engineers read the source. They grep through commit messages from 2019. They ping someone on Slack who might know someone who once worked on that service. That's not inefficiency — that's *networking*.
+
+InnerSource projects tend to have READMEs that actually explain things, contribution guides that lower the barrier to entry, and transparent decision-making in public channels. A codebase becomes a living, searchable knowledge base. But then anyone could understand it, and where's the fun in that?
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./i-dont-need-it.gif').default} alt="I don't need it" style={{maxWidth: '480px', width: '100%'}} />
+</div>
+
+## The "Trusted Committer" Sounds Like Extra Work
+
+InnerSource introduces this concept of a [Trusted Committer](https://innersourcecommons.org/learn/learning-path/trusted-committer/01/) — someone who mentors contributors, reviews cross-team PRs, and ensures quality standards are met. Basically, you're asking senior engineers to *help other people get better at their jobs*. On purpose.
+
+These Trusted Committers end up building relationships across the org, developing deep expertise in their domain, and becoming the kind of engineers everyone wants to work with. They get recognised for impact beyond their immediate team. Sounds like a lot of responsibility for no reason when you could just... close the PR from that other team and move on.
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./not-my-problem.gif').default} alt="Not my problem" style={{maxWidth: '480px', width: '100%'}} />
+</div>
+
+## Innovation Is Risky Anyway
+
+Here's the thing about letting anyone in the organisation contribute to any codebase — people start *having ideas*. A QA engineer notices a pattern and submits a testing utility. An SRE improves observability across services. Someone from a completely different department fixes a bug that's been open for months because they actually hit it in production.
+
+This kind of meritocratic, bottom-up innovation is dangerous. It implies that good ideas can come from anywhere, not just the team that owns the repo. It suggests that the best solution might already exist in someone else's branch. It means you'd have to admit that collaboration scales better than control. And who wants to admit that?
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./mind-blown.gif').default} alt="Mind blown" style={{maxWidth: '480px', width: '100%'}} />
+</div>
+
+## Even the Competition Is Doing It (More Reason to Avoid It, Obviously)
+
+Oh, and here's the kicker — [Flutter's already doing it](https://innersource.flutter.com/). Yes, *that* Flutter. They've not only adopted InnerSource, they've built an entire maturity model around it. They call it the **InnerSource Pyramid** — a structured progression from closed source all the way to maintainers across multiple teams:
+
+<div style={{textAlign: 'center'}}>
+  <img src="https://innersource.flutter.com/how/pyramid/pyramid.png" alt="Flutter's InnerSource Pyramid — but we definitely don't need one of these" style={{maxWidth: '600px', width: '100%'}} />
+</div>
+
+Stage 0 is where you keep your code locked in a vault. Stage 1, you let people *read* it (radical, I know). Stage 2, you actually accept contributions from other teams. Stage 3, you have maintainers embedded across the org working as a virtual team. It's almost like they've thought about this systematically. How annoying.
+
+They've invested in this because — and I quote — *"our brands working together gives us a winning edge over our competitors."* That's us. We're the competitors they're winning against. But sure, let's not look into it.
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./totally-fine.gif').default} alt="Side eye" style={{maxWidth: '480px', width: '100%'}} />
+</div>
+
+## So Yeah, Don't Do InnerSource
+
+Keep the repos locked down. Keep the teams in their lanes. Keep rebuilding the same thing every quarter and wondering why velocity plateaus. It's working great.
+
+Or — and I'm just throwing this out there — maybe take a look at what companies like PayPal, Bloomberg, and Europace figured out years ago. Maybe check out what [Flutter is already doing](https://innersource.flutter.com/) right next door. Maybe read through the [InnerSource Commons patterns](https://innersourcecommons.gitbook.io/innersource-patterns). Maybe open up one repo, write a `CONTRIBUTING.md`, and see what happens when you trust your engineers to collaborate like the adults they are.
+
+But what do I know. I'm just an Architect of Chaos.
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./mic-drop.gif').default} alt="Mic drop" style={{maxWidth: '480px', width: '100%'}} />
+</div>
+
+---
+
+*If you're curious about InnerSource (and you should be), start here: [InnerSource Commons Learning Path](https://innersourcecommons.org/learn/learning-path/). It's free, it's practical, and it might just change how we build software.*
