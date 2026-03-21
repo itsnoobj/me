@@ -55,7 +55,7 @@ const config: Config = {
     footer: {
       style: "light",
       links: [],
-      copyright: `© ${new Date().getFullYear()} noobj.me — <a href="https://x.com/noobjeevan" target="_blank">X</a> · <a href="https://www.linkedin.com/in/jeevan-d-c/" target="_blank">LinkedIn</a> · <a href="https://github.com/noobg1" target="_blank">GitHub</a> <span style="opacity:0.4">(rarely active, mostly lurking)</span>`,
+      copyright: `© ${new Date().getFullYear()} noobj.me — <a href="https://x.com/itsnoobj" target="_blank">X</a> · <a href="https://www.linkedin.com/in/jeevan-d-c/" target="_blank">LinkedIn</a> · <a href="https://github.com/noobg1" target="_blank">GitHub</a> <span style="opacity:0.4">(rarely active, mostly lurking)</span>`,
     },
     prism: {
       theme: prismThemes.github,
