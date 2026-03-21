@@ -39,8 +39,7 @@ export default function Home(): React.JSX.Element {
             themselves — speak at conferences, and run a 2,000+ member tech community.
           </p>
           <p>
-            <strong>Somewhere in between,</strong> I picked up a General Management
-            program at{" "}
+            <strong>Somewhere in between,</strong> I picked up General Management at{" "}
             <a href="https://www.iimb.ac.in/" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
               IIMB
             </a>{" "}
