@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Builder & Architect of Chaos",
+  title: "noobj | Builder & Architect of Chaos",
   tagline: "Shipping code, breaking silos, questioning everything",
   favicon: "img/favicon.ico",
 

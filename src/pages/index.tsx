@@ -10,7 +10,7 @@ export default function Home(): React.JSX.Element {
       <main className="landing">
         <section className="hero-section">
           <h1>Jeevan D C</h1>
-          <p className="subtitle">{siteConfig.title}</p>
+          <p className="subtitle">Builder & Architect of Chaos</p>
         </section>
 
         <section className="story">
