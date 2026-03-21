@@ -90,6 +90,7 @@ article {
 
 /* Hide redundant author info on single-author blog */
 .blog-post-authors,
-[class*="blogPostAuthor"] {
+[class*="blogPostAuthor"],
+[class*="authorRow"] {
   display: none;
 }

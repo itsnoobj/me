@@ -76,7 +76,7 @@ export default function Home(): React.JSX.Element {
 
         <div className="cta">
           <Link to="/blog" className="cta-link">
-            Read the blog →
+            Blogs →
           </Link>
         </div>
       </main>
