@@ -1,0 +1,219 @@
+---
+slug: hi
+title: "Hi."
+authors: [jeevan_dc]
+tags: [culture, opinion]
+date: 2025-03-10
+---
+
+Hi.
+
+<!-- truncate -->
+
+<div style={{background: 'var(--ifm-background-surface-color)', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '12px', padding: '1.5rem 2rem', maxWidth: '500px', margin: '2rem auto', fontFamily: 'system-ui, -apple-system, sans-serif', boxShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>
+  <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.5rem', paddingBottom: '0.75rem', borderBottom: '1px solid var(--ifm-color-emphasis-200)'}}>
+    <div style={{width: '10px', height: '10px', borderRadius: '50%', background: '#44b553'}} />
+    <span style={{fontWeight: 600, fontSize: '0.9rem'}}>Colleague</span>
+    <span style={{fontSize: '0.75rem', opacity: 0.5, marginLeft: 'auto'}}>2:03 PM</span>
+  </div>
+
+  <div style={{background: 'var(--ifm-color-emphasis-100)', borderRadius: '12px', padding: '0.6rem 1rem', marginBottom: '0.75rem', width: 'fit-content', fontSize: '0.95rem'}}>
+    Hi
+  </div>
+
+  <div style={{textAlign: 'center', padding: '0.5rem 0', opacity: 0.4, fontSize: '0.85rem'}}>
+    <p style={{margin: '0.75rem 0'}}>...</p>
+    <p style={{margin: '0.75rem 0'}}>still waiting</p>
+    <p style={{margin: '0.75rem 0'}}>...</p>
+    <p style={{margin: '0.75rem 0'}}>hello?</p>
+    <p style={{margin: '0.75rem 0'}}>...</p>
+  </div>
+
+  <div style={{textAlign: 'center', fontSize: '0.8rem', opacity: 0.35, fontStyle: 'italic', paddingTop: '0.5rem', borderTop: '1px solid var(--ifm-color-emphasis-200)'}}>
+    Colleague is typing...
+  </div>
+</div>
+
+Annoying, isn't it? You clicked on this article expecting *something* — a point, a question, an insight — and instead you got... nothing. Just a greeting and dead air.
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./waiting.gif').default} alt="Waiting impatiently" style={{maxWidth: '480px', width: '100%'}} />
+</div>
+
+Now you know exactly how it feels to receive this message at 2pm on a Tuesday:
+
+> **them:** Hi
+>
+> **you:** ...
+>
+> **you:** *(stops what you're doing)*
+>
+> **you:** *(waits)*
+>
+> **you:** *(still waiting)*
+>
+> **them:** *(typing...)*
+>
+> **them:** *(stops typing)*
+>
+> **them:** *(typing...)*
+>
+> **them:** How are you?
+>
+> **you:** 🙃
+
+## The Timezone Tax
+
+Here's one that'll make your eye twitch.
+
+It's 5:30pm. You're wrapping up your day. A message pops in from a colleague who's five and a half hours behind you:
+
+> **them (12:00 their time):** Hi
+
+You reply:
+
+> **you (5:30pm):** Hey, what's up?
+
+They've gone to lunch. They come back:
+
+> **them (1:00pm their time):** Are you still around?
+
+You've gone home. You see it next morning:
+
+> **you (9:00am, next day):** Yeah, I'm here. What do you need?
+
+> **them (still asleep):** ...
+
+A question that would've taken 30 seconds to ask and 2 minutes to answer just became a **24-hour round trip**. Because someone typed "Hi" and hit enter instead of typing "Hi — can you check if the auth service is returning 403s for the `/users` endpoint? Here's the trace ID: `a]`."
+
+That's not politeness. That's a full business day in the bin.
+
+## "Good Morning!" ...At 9pm
+
+This one's a personal favourite.
+
+> **them:** Good morning! 🌅
+
+You look at your clock. It's 9pm. You've already had dinner. You're watching something. Your phone buzzes with a work notification that says *good morning* while you're in your pyjamas.
+
+They didn't check your timezone. They didn't check your Slack status. They didn't check *anything*. They just broadcast a greeting into the void and waited for the void to respond.
+
+And the greeting is *wrong*. It's not morning. It's not even close to morning. The message is empty AND inaccurate. A two-for-one special of not thinking it through.
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./facepalm.gif').default} alt="Facepalm" style={{maxWidth: '480px', width: '100%'}} />
+</div>
+
+## The Typing Indicator of Doom
+
+You know the one. You're deep in a problem. Flow state. The code is finally making sense. Then:
+
+> **them:** Hi
+
+You glance at it. The typing indicator appears. Three little dots, bouncing. You wait. It stops. Starts again. Stops. Starts. You're now fully distracted, watching a tiny animation like it's a thriller movie.
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./typing.gif').default} alt="Typing indicator dots" style={{maxWidth: '350px', width: '100%'}} />
+</div>
+
+Then finally:
+
+> **them:** How's it going?
+
+*That's it?* You broke my concentration for a vibe check? The actual question — if there even is one — is still three messages away. Your flow state is gone. That bug you were about to crack? It'll take you [23 minutes to get back into it](https://ics.uci.edu/~gmark/chi08-mark.pdf). Not my number — that's from UC Irvine research.
+
+## The Irony We Don't Talk About
+
+We've all shared the meme. We've all nodded along. *"This meeting could've been an email."* It's practically a personality trait at this point.
+
+But here's the thing nobody says out loud: **we then send messages that aren't even complete.**
+
+We complain about 30-minute meetings that waste our time, and then we send a "Hi" that wastes someone's time in a slower, more agonising way — because now they're stuck in limbo, unable to help, unable to ignore, just... waiting for you to finish your thought.
+
+At least the unnecessary meeting had an agenda. Your "Hi" has nothing.
+
+## Someone Already Nailed This
+
+I'm not the first person to be annoyed by this. There's an entire website dedicated to it. Take a minute — seriously, scroll through it:
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <iframe
+    src="https://nohello.net/en/"
+    width="100%"
+    height="600"
+    style={{border: '2px solid var(--ifm-color-primary)', borderRadius: '8px', maxWidth: '800px'}}
+    title="nohello.net"
+    loading="lazy"
+  />
+  <p style={{marginTop: '0.5rem', fontSize: '0.9rem', opacity: 0.7}}>
+    Can't see it? <a href="https://nohello.net/en/" target="_blank" rel="noopener noreferrer">Visit nohello.net directly</a>
+  </p>
+</div>
+
+## Do You Feel It Now?
+
+If you've been nodding along this whole time — welcome. You're not crazy. You're not "difficult." You're not "bad at small talk." Your frustration is valid, and it costs real time, real focus, and real productivity. Every single day.
+
+And if you're reading this thinking *"wait... I do this"* — remember the top of this article? That empty space? That wait? That feeling of *"get to the point already"*?
+
+**That's what you're doing to people. Every. Single. Time.**
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./finally.gif').default} alt="Finally someone said it" style={{maxWidth: '400px', width: '100%'}} />
+</div>
+
+You're not a bad person. You're probably trying to be polite. But in async communication, a bare "Hi" isn't polite — it's a hostage situation. You're holding someone's attention captive until you decide to finish your thought.
+
+## "But What Do I Do When Someone Just Says Hi?"
+
+This is the real question, isn't it? You *know* it's a problem. You've wanted to say something. But you don't want to be *that person* — the one who sends a passive-aggressive link to a website about chat etiquette.
+
+Here's your toolkit. Tested in the wild. Zero friendships harmed.
+
+**The Genuine One** — simple, warm, and means it:
+
+> *"Hello, how can I be of help?"*
+
+Sounds friendly. Is friendly. Because it genuinely *is* — you're signalling that you're available, you're willing to help, and you're ready for meaningful work together. But it also subtly says *"I'm not going to guess what you want — the ball is in your court."* Works every time.
+
+**The Friendly Nudge** — reply with warmth, plant the seed:
+
+> *"Hey! What's up? (Pro tip for next time — feel free to drop your question straight away, I might be in a meeting but can get back to you faster that way 😊)"*
+
+**The Busy Redirect** — honest and practical:
+
+> *"Hi! I'm in and out of meetings today — drop your question and I'll get to it as soon as I can!"*
+
+**The Status Move** — let your status do the talking:
+
+> 💬 *"Skip the hello — just ask! I'll reply faster."*
+
+> 🎧 *"In focus mode — drop your question, I'll get back to you."*
+
+**The Nuclear Option** — send them this article:
+
+> *"Hey, have you seen this? [link to this post] — it changed how I message people at work. Thought you might find it useful!"*
+
+That's literally why this post exists. You're welcome.
+
+And look — **you're not being rude by doing any of this.** You're being respectful of everyone's time. Including theirs. Because the faster they ask, the faster they get an answer. Everyone wins.
+
+## The One Thing
+
+Next time you open a chat window, just say what you need. All of it. In one message. Greeting included if you want — nobody's banning politeness. Just don't make it the *entire* message.
+
+> ~~"Hi"~~
+>
+> ✅ "Hey! Quick one — is the deployment pipeline stuck or is it just me? I'm seeing this error: `timeout on stage 3`. Here's the build link: [link]"
+
+Your future self — and everyone else's — will thank you.
+
+---
+
+*If this resonated, share it. If it called you out, you're welcome. Either way, go update your Slack status.*
+
+---
+
+**References**
+
+- Gloria Mark, Daniela Gudith, Ulrich Klocke. [*"The Cost of Interrupted Work: More Speed and Stress"*](https://ics.uci.edu/~gmark/chi08-mark.pdf) — CHI 2008, ACM Conference on Human Factors in Computing Systems.
