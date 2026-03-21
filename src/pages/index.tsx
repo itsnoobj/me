@@ -14,8 +14,10 @@ export default function Home(): React.JSX.Element {
             alt="Jeevan D C"
             className="headshot"
           />
-          <h1>Jeevan D C</h1>
-          <p className="subtitle">Builder & Architect of Chaos</p>
+          <div>
+            <h1>Jeevan D C</h1>
+            <p className="subtitle">Builder & Architect of Chaos</p>
+          </div>
         </section>
 
         <section className="story">
