@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#1a1a1a"/>
+  <!-- Theatre masks icon -->
+  <g transform="translate(360, 30) scale(0.9)">
+    <!-- Happy mask -->
+    <rect x="0" y="0" width="40" height="50" rx="10" fill="#dc3545" opacity="0.9"/>
+    <circle cx="12" cy="20" r="3" fill="#1a1a1a"/>
+    <circle cx="28" cy="20" r="3" fill="#1a1a1a"/>
+    <path d="M10,35 Q20,45 30,35" stroke="#1a1a1a" stroke-width="2.5" fill="none"/>
+    <!-- Sad mask -->
+    <rect x="45" y="0" width="40" height="50" rx="10" fill="#dc3545" opacity="0.7"/>
+    <circle cx="57" cy="20" r="3" fill="#1a1a1a"/>
+    <circle cx="73" cy="20" r="3" fill="#1a1a1a"/>
+    <path d="M55,40 Q65,30 75,40" stroke="#1a1a1a" stroke-width="2.5" fill="none"/>
+  </g>
+  <text x="400" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" font-weight="600" fill="#e0e0e0">Governance Theatre</text>
+  <text x="400" y="180" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#888">When compliance becomes a substitute for competence</text>
+</svg>

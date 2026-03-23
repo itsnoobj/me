@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150">
+  <rect width="400" height="150" rx="8" fill="#1a1a1a"/>
+  <g transform="translate(170, 20)">
+    <circle cx="30" cy="20" r="15" fill="none" stroke="#f0a500" stroke-width="2"/>
+    <line x1="30" y1="40" x2="30" y2="80" stroke="#f0a500" stroke-width="2"/>
+    <line x1="30" y1="55" x2="10" y2="45" stroke="#f0a500" stroke-width="2"/>
+    <line x1="30" y1="55" x2="50" y2="45" stroke="#f0a500" stroke-width="2"/>
+    <line x1="30" y1="80" x2="15" y2="105" stroke="#f0a500" stroke-width="2"/>
+    <line x1="30" y1="80" x2="45" y2="105" stroke="#f0a500" stroke-width="2"/>
+  </g>
+  <text x="200" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#888" font-style="italic">*takes a bow*</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250">
+  <rect width="800" height="250" fill="#1a1a1a"/>
+  <!-- Dice 1 - tilted left -->
+  <g transform="translate(330, 30) rotate(-15, 35, 35)">
+    <rect x="0" y="0" width="70" height="70" rx="10" fill="#f0a500" opacity="0.9"/>
+    <circle cx="18" cy="18" r="5" fill="#1a1a1a"/>
+    <circle cx="52" cy="52" r="5" fill="#1a1a1a"/>
+    <circle cx="35" cy="35" r="5" fill="#1a1a1a"/>
+  </g>
+  <!-- Dice 2 - tilted right, showing 6 -->
+  <g transform="translate(410, 25) rotate(12, 35, 35)">
+    <rect x="0" y="0" width="70" height="70" rx="10" fill="#f0a500" opacity="0.75"/>
+    <circle cx="18" cy="15" r="5" fill="#1a1a1a"/>
+    <circle cx="52" cy="15" r="5" fill="#1a1a1a"/>
+    <circle cx="18" cy="35" r="5" fill="#1a1a1a"/>
+    <circle cx="52" cy="35" r="5" fill="#1a1a1a"/>
+    <circle cx="18" cy="55" r="5" fill="#1a1a1a"/>
+    <circle cx="52" cy="55" r="5" fill="#1a1a1a"/>
+  </g>
+  <text x="400" y="170" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" font-weight="600" fill="#e0e0e0">The Luck Paradox</text>
+</svg>

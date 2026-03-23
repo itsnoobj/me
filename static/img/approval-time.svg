@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 160">
+  <rect width="700" height="160" rx="8" fill="#1a1a1a"/>
+  <text x="350" y="60" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#888" letter-spacing="3">AVERAGE TIME TO APPROVE A $0 INTERNAL TOOL</text>
+  <text x="350" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="42" font-weight="700" fill="#dc3545">Days? Weeks? Months?</text>
+  <text x="350" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#555">Time to build it: an afternoon</text>
+</svg>
