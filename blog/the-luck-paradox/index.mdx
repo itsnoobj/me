@@ -1,0 +1,196 @@
+---
+slug: the-luck-paradox
+title: "You Got Where You Are Purely on Merit (And Other Lies We Tell Ourselves)"
+authors: [jeevan_dc]
+tags: [leadership, culture, engineering]
+date: 2025-03-18
+---
+
+Look, you worked hard. You stayed late. You shipped that thing nobody else could ship. You earned every single promotion, every bit of recognition, every seat at the table. It was all you. 100%. No asterisks. No footnotes. Definitely no luck involved.
+
+Right?
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./bow.gif').default} alt="Taking a bow" width="400" />
+</div>
+
+<!-- truncate -->
+
+## You Definitely Do More Than Everyone Else
+
+Here's a fun experiment. Get your team in a room and ask everyone to estimate their percentage contribution to the last project. Go on, I'll wait.
+
+Done? Great. Add them up. If your team is anything like the ones in [Ross & Sicoly's research](https://www.semanticscholar.org/paper/Egocentric-Biases-in-Availability-and-Attribution-Ross-Sicoly/4c6f4665525501ea95db3a1c8bd96a8d032893b7), the total almost certainly exceeds **100%**. Congratulations — your team apparently did more work than was physically possible. Someone call physics.
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./math-lady.gif').default} alt="Confused math" width="250" />
+</div>
+
+This is **Egocentric Bias**, and it's not because your team are liars. It's because you were there for 100% of your own late nights, your own difficult emails, your own "glue work" that held the project together. But you only saw about 20% of everyone else's. You remember your heroics in vivid detail. Theirs? Background noise.
+
+The result? Every single person on the team walks away feeling slightly undervalued. And the person who got promoted? They're absolutely *certain* they deserved it. No luck required.
+
+:::note
+This is the same dynamic that makes cross-team collaboration feel thankless — you see your own effort, not theirs. If you've ever wondered why cross-team help feels invisible, this is why.
+:::
+
+## The Skill Saturation Problem
+
+Let's talk about astronauts. NASA typically receives 8,000–18,000 applications per intake and selects around 10–12. Everyone who applies is already in the 99th percentile of human capability — PhDs, fighter pilots, engineers who've built things most of us can't even spell.
+
+So what separates the 12 who get in from the 17,988 who don't?
+
+```mermaid
+graph LR
+    A["🟢 Low Competition\nSkill = Differentiator\nEffort → Outcome"] --> B["🟡 High Competition\nSkill Gap Narrows\nLuck Starts to Matter"]
+    B --> C["🔴 Elite Competition\nSkill ≈ Constant\nLuck = Dominant Differentiator"]
+
+    style A fill:#d4edda,stroke:#28a745,color:#000
+    style B fill:#fff3cd,stroke:#ffc107,color:#000
+    style C fill:#f8d7da,stroke:#dc3545,color:#000
+```
+
+When everyone maxes out the skill variable, it effectively becomes a constant. It cancels out. What's left is the messy, uncomfortable stuff — timing, visibility, which project you happened to be on, who happened to be in the room when your name came up.
+
+[Robert Frank's research](https://blogs.lse.ac.uk/lsereviewofbooks/2016/06/28/book-review-success-and-luck-good-fortune-and-the-myth-of-meritocracy-by-robert-h-frank/) puts it bluntly: in high-competition fields, even a small luck component disproportionately determines who wins. A [simulation by Veritasium](https://www.youtube.com/watch?v=3LopI4YeC4I) modelled this — even when luck is a minor factor alongside skill, the winners were overwhelmingly the luckiest, not the most skilled. That tiny sliver of circumstance becomes the **dominant differentiator** when everyone's skill is maxed out.
+
+But sure, it was definitely the extra certification that got you the role. Definitely not the fact that the role only existed because someone quit unexpectedly (*Vacancy Chain Effect*). Definitely not the fact that you happened to be on the project that got executive visibility that quarter (*Visibility Bias*).
+
+## The Cookie Monster Effect
+
+Here's where it gets properly uncomfortable. Research by [Dacher Keltner and colleagues](https://journals.sagepub.com/doi/10.1111/j.1467-9280.2008.02241.x) has consistently shown that even small, arbitrary increases in power change behaviour — people in high-power conditions take more resources, interrupt more, and show less empathy toward others. The effect kicks in fast.
+
+Now scale that up. You've been a senior engineer, a lead, a principal for years. You've had a tailwind of good managers, growing markets, and teams that made you look good. But from the inside, it all feels like engine. *Your* engine. Your grit. Your 4am deploys.
+
+This is **Survivor Bias** meeting the **Tailwind Effect**:
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./cookie.gif').default} alt="Cookie Monster grabbing cookies" width="250" />
+</div>
+
+<div style={{display: 'flex', justifyContent: 'center'}}>
+
+| Bias | What It Feels Like | What's Actually Happening |
+|---|---|---|
+| **Egocentric Bias** | "I did most of the work" | You saw 100% of yours, 20% of theirs |
+| **Survivor Bias** | "The system is fair — it worked for me" | You only see the winners, not the 17,988 |
+| **Tailwind Effect** | "I got here through pure grit" | Favourable conditions feel invisible from inside |
+| **Cookie Effect** | "I deserve this authority" | Even random power changes behaviour in minutes |
+
+</div>
+
+[Branko Milanovic's data](https://stonecenter.gc.cuny.edu/files/2006/01/branko_global_inequality_review_2006.pdf) is the real gut punch: **more than two-thirds of your lifetime income** is determined by the country you were born in. Not your degree. Not your GitHub profile. The latitude and longitude of the hospital your mum happened to be in.
+
+But yeah, it was definitely the side projects.
+
+## The Paradox (Here's Where It Gets Useful)
+
+So if luck matters this much, why bother? Why grind? Why stay up debugging that memory leak at 2am if the universe is just going to flip a coin anyway?
+
+Because here's the paradox you have to hold in your head — two completely contradictory beliefs, simultaneously:
+
+<div style={{textAlign: 'center'}}>
+  <img src={require('./mind-blown.gif').default} alt="Mind blown" width="200" />
+</div>
+
+```mermaid
+graph LR
+    subgraph before ["🔥 Before the Work"]
+        direction TB
+        A1["Believe: 100% Control"] --> A2["Internal locus of control\nEffort is the ONLY variable\nThis is the fuel"]
+    end
+
+    subgraph after ["🧘 After the Success"]
+        direction TB
+        B1["Acknowledge: Luck Played a Massive Role"] --> B2["External attribution\nStay humble, stay human\nDon't take the extra cookie"]
+    end
+
+    before -->|"Hold both"| after
+
+    style before fill:#fff3cd,stroke:#ffc107,color:#000
+    style after fill:#d4edda,stroke:#28a745,color:#000
+```
+
+**Before the work:** Believe you are in 100% control. This isn't delusion — it's fuel. The only way to put in the 95% effort required to even *enter* the room where luck happens is to believe your effort is the whole story. No ticket, no lottery.
+
+**After the success:** Acknowledge that luck played a massive role. Not to diminish what you did, but to stay human. To stay approachable. To avoid becoming the person who takes the extra cookie and doesn't even notice.
+
+> **Yes, these beliefs contradict each other. That's the point. The skill is knowing which one to activate when.**
+
+The leaders who hold both beliefs — fierce effort *and* radical humility — are the ones people actually want to follow.
+
+## You Can Actually Attract Luck (No, Seriously)
+
+Here's where most people stop the conversation. "Luck matters, cool, guess I'll just wait for it." No. That's the wrong takeaway. Luck isn't purely random — there are ways to *increase your surface area* for it.
+
+Naval Ravikant [breaks luck into four types](https://nav.al/money-luck):
+
+1. **Blind luck** — pure chance. You can't control this.
+2. **Luck from hustle** — you're moving so fast, generating so much energy, that you collide with opportunities others miss.
+3. **Luck from preparation** — you've developed the skill to spot opportunities that others walk right past.
+4. **Luck from your unique character** — you've built such a specific reputation and skillset that luck *finds you*.
+
+His metaphor is perfect: imagine there's treasure at the bottom of the ocean. Type 1 luck is the tide washing it ashore at your feet. Type 4?
+
+> **You've become the best deep-sea diver in the world, you've built the equipment, you've studied the currents — and when someone finds a treasure map, *you're the only person they call*.**
+
+That fourth type is the one worth obsessing over. It's not random. It's the compound interest of being so distinctly good at something that opportunities start seeking you out. The "lucky breaks" that senior engineers get — the tap on the shoulder for the high-visibility project, the introduction to the right sponsor — those aren't random. They're Type 4. They went to the person who'd spent years building a reputation for shipping, for mentoring, for being the person who makes things work.
+
+:::tip
+You can't control whether you win the lottery. But you can control how many tickets you buy, and more importantly, whether you're the kind of person people hand tickets *to*.
+:::
+
+### But First, You Have to Be in the Game
+
+And this is where the conversation gets uncomfortable in a different way.
+
+Consider what "being smart" actually means for most humans on this planet. [World Bank data](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?most_recent_value_desc=false) shows that South Sudan has a GDP per capita of **under $500 per year**. Burundi, Central African Republic, Mozambique — similar numbers. Now imagine being born brilliant in South Sudan. Same raw intelligence as the engineer sitting next to you. Same problem-solving instinct. Same curiosity.
+
+What does that intelligence get you? Not a CS degree. Not a laptop. Not a GitHub account. Not even reliable electricity. It gets you survival. Maybe, if you're extraordinarily lucky (Type 1), a path to a school that has textbooks.
+
+Branko Milanovic's research — already cited above — lands the punch: **more than two-thirds of your lifetime income is determined by where you were born.** Not how smart you are. Not how hard you work. Where your mother happened to be standing when you arrived.
+
+```mermaid
+graph TD
+    A["Born with identical intelligence"] --> B["Born in Denmark 🇩🇰"]
+    A --> C["Born in South Sudan 🇸🇸"]
+    B --> D["Free education → University → Tech job → $80k+/year"]
+    C --> E["No electricity → No school → Subsistence farming → <$500/year"]
+    D --> F["'I earned this through merit'"]
+    E --> G["'If only I'd worked harder'"]
+
+    style B fill:#d4edda,stroke:#28a745,color:#000
+    style C fill:#f8d7da,stroke:#dc3545,color:#000
+    style F fill:#fff3cd,stroke:#ffc107,color:#000
+    style G fill:#fff3cd,stroke:#ffc107,color:#000
+```
+
+The smartest person in the world, statistically, probably lives in a country where their intelligence will never be rewarded the way yours has been. They'll never have the *infrastructure* to convert talent into outcome. No internet to learn on. No market to sell into. No visa to move toward opportunity.
+
+So when you say "I got here on merit" — yes, your merit was necessary. But it was only *sufficient* because of where you happened to be born, what language you happened to speak, and which economy happened to be hiring when you graduated.
+
+That's not a reason to feel guilty. It's a reason to feel *responsible*. Responsible for building systems — in your team, your org, your hiring pipeline — where someone's postcode doesn't determine their ceiling.
+
+## "But I Earned This"
+
+Yeah, you did. And so did the 17,988 astronaut candidates who didn't get picked. And so did the engineer on the other team who built the same thing you built but didn't have a sponsor in the room. And so did the person who grew up in a country where "making it in tech" means something entirely different.
+
+You earned your spot *and* you got lucky. Both things are true. Holding only one of them makes you either defeated or delusional. Holding both makes you dangerous — in the good way.
+
+## So What Do You Actually Do With This?
+
+If you lead people — and if you're reading this on an engineering docs site, you probably do or will — here's the move:
+
+| Action | Why It Works |
+|---|---|
+| **Make the invisible visible** — Document glue work. Recognise mentoring, cross-team coordination, the person who unblocked three teams by writing a doc nobody asked for. | Egocentric bias means everyone's contributions are invisible to everyone else. Your job is to fix that. |
+| **Increase the luck of others** — Sponsor someone into a room they wouldn't otherwise be in. Put someone's name forward for a project that'll give them visibility. | You had tailwinds. Build tailwinds for the people behind you. Be the lucky break for someone who's already put in the 95%. |
+| **Stay humble, stay hungry** — Before the task: you control everything. After the task: you controlled very little. Rinse, repeat. | It's uncomfortable. It's also the only honest way to operate at scale. |
+
+That last one — "increase the luck of others" — is the whole game. It's the same principle behind [InnerSource](/blog/why-you-should-never-innersource) (lowering barriers so talent finds opportunity) and behind fixing the payoff matrix (making cooperation the rational choice). The mechanism is different. The goal is the same: **build systems where the best people don't need to be lucky to succeed.**
+
+> **Your goal as a leader isn't to be the smartest person in the room. It's to increase the luck of everyone else in it.**
+
+---
+
+*This post draws from Veritasium's analysis, Robert Frank's "Success and Luck," Naval Ravikant's framework on luck, and Branko Milanovic's research on global inequality.*
