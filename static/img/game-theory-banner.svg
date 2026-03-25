@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250">
+  <rect width="800" height="250" fill="#1a1a1a"/>
+  <!-- 2x2 Prisoner's Dilemma grid -->
+  <g transform="translate(310, 20)">
+    <!-- Grid lines -->
+    <line x1="60" y1="0" x2="60" y2="90" stroke="#555" stroke-width="1.5"/>
+    <line x1="120" y1="0" x2="120" y2="90" stroke="#555" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="180" y2="30" stroke="#555" stroke-width="1.5"/>
+    <line x1="0" y1="60" x2="180" y2="60" stroke="#555" stroke-width="1.5"/>
+    <!-- Headers -->
+    <text x="90" y="20" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#888">Cooperate</text>
+    <text x="150" y="20" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#888">Defect</text>
+    <text x="30" y="50" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#888">Cooperate</text>
+    <text x="30" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#888">Defect</text>
+    <!-- Cells -->
+    <text x="90" y="50" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#28a745">✓ ✓</text>
+    <text x="150" y="50" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#dc3545">✗ ✓</text>
+    <text x="90" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#dc3545">✓ ✗</text>
+    <text x="150" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#f0a500">✗ ✗</text>
+    <!-- Arrow pointing to defect/defect -->
+    <path d="M170,75 Q195,75 195,55 Q195,35 170,35" stroke="#f0a500" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/>
+    <polygon points="170,31 160,35 170,39" fill="#f0a500"/>
+  </g>
+  <text x="400" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#888">when the game rewards ignoring you</text>
+  <text x="400" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="600" fill="#e0e0e0">The Prisoner's Dilemma at Work</text>
+</svg>
