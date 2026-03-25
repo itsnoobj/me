@@ -33,3 +33,10 @@ date: YYYY-MM-DD
 - Remove internal/company-specific references if needed
 - Build (`npm run build`) before committing
 - Commit and push to `main` (auto-deploys via GitHub Actions)
+
+## OG Images for Social Sharing
+
+- Every blog post with a banner SVG MUST have a corresponding PNG for OG meta tags
+- PNG must be 1200×630, with the SVG rendered at native aspect ratio and centered on a dark (#1b1b1d) canvas
+- Add `image: /img/<banner>.png` to frontmatter
+- SVGs alone are NOT supported by social media crawlers
