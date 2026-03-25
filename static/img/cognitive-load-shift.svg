@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 160">
+  <rect width="700" height="160" fill="#1a1a1a"/>
+  <!-- Builder side -->
+  <g transform="translate(120, 20)">
+    <!-- Person writing -->
+    <circle cx="30" cy="15" r="10" fill="none" stroke="#4a9eff" stroke-width="1.5"/>
+    <line x1="30" y1="25" x2="30" y2="50" stroke="#4a9eff" stroke-width="1.5"/>
+    <line x1="30" y1="35" x2="15" y2="45" stroke="#4a9eff" stroke-width="1.5"/>
+    <line x1="30" y1="35" x2="45" y2="45" stroke="#4a9eff" stroke-width="1.5"/>
+    <!-- Code block -->
+    <rect x="55" y="10" width="40" height="45" rx="4" fill="#333" stroke="#555" stroke-width="1"/>
+    <line x1="62" y1="22" x2="82" y2="22" stroke="#4a9eff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="62" y1="32" x2="78" y2="32" stroke="#4a9eff" stroke-width="1.5" opacity="0.4"/>
+    <line x1="62" y1="42" x2="85" y2="42" stroke="#4a9eff" stroke-width="1.5" opacity="0.3"/>
+    <text x="50" y="78" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#4a9eff">Builder</text>
+    <text x="50" y="93" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#888">creative load</text>
+  </g>
+  <!-- Arrow -->
+  <line x1="310" y1="42" x2="370" y2="42" stroke="#f0a500" stroke-width="2"/>
+  <polygon points="370,37 382,42 370,47" fill="#f0a500"/>
+  <!-- Director side -->
+  <g transform="translate(420, 20)">
+    <!-- Person -->
+    <circle cx="30" cy="15" r="10" fill="none" stroke="#f0a500" stroke-width="1.5"/>
+    <line x1="30" y1="25" x2="30" y2="50" stroke="#f0a500" stroke-width="1.5"/>
+    <line x1="30" y1="35" x2="15" y2="45" stroke="#f0a500" stroke-width="1.5"/>
+    <line x1="30" y1="35" x2="45" y2="45" stroke="#f0a500" stroke-width="1.5"/>
+    <!-- Agent nodes -->
+    <circle cx="75" cy="10" r="8" fill="none" stroke="#dc3545" stroke-width="1.2"/>
+    <text x="75" y="14" text-anchor="middle" font-family="system-ui,sans-serif" font-size="7" fill="#dc3545">A1</text>
+    <circle cx="90" cy="32" r="8" fill="none" stroke="#28a745" stroke-width="1.2"/>
+    <text x="90" y="36" text-anchor="middle" font-family="system-ui,sans-serif" font-size="7" fill="#28a745">A2</text>
+    <circle cx="75" cy="54" r="8" fill="none" stroke="#4a9eff" stroke-width="1.2"/>
+    <text x="75" y="58" text-anchor="middle" font-family="system-ui,sans-serif" font-size="7" fill="#4a9eff">A3</text>
+    <!-- Lines from person to agents -->
+    <line x1="45" y1="35" x2="67" y2="12" stroke="#555" stroke-width="1" stroke-dasharray="3,2"/>
+    <line x1="45" y1="38" x2="82" y2="32" stroke="#555" stroke-width="1" stroke-dasharray="3,2"/>
+    <line x1="45" y1="42" x2="67" y2="52" stroke="#555" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="55" y="78" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#f0a500">Director</text>
+    <text x="55" y="93" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#888">evaluative load</text>
+  </g>
+  <!-- Bottom -->
+  <line x1="60" y1="115" x2="640" y2="115" stroke="#333" stroke-width="1"/>
+  <text x="350" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#888">you stopped writing every line — now you audit every output</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 160">
+  <rect width="700" height="160" fill="#1a1a1a"/>
+  <!-- Intrinsic -->
+  <g transform="translate(100, 20)">
+    <rect x="0" y="5" width="50" height="50" rx="6" fill="#f0a500" opacity="0.15" stroke="#f0a500" stroke-width="1.5"/>
+    <text x="25" y="36" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20" fill="#f0a500">⚙</text>
+    <text x="25" y="78" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#f0a500">Intrinsic</text>
+    <text x="25" y="94" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#888">the problem itself</text>
+  </g>
+  <!-- Plus -->
+  <text x="210" y="48" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#555">+</text>
+  <!-- Extraneous -->
+  <g transform="translate(275, 20)">
+    <rect x="0" y="5" width="50" height="50" rx="6" fill="#dc3545" opacity="0.15" stroke="#dc3545" stroke-width="1.5"/>
+    <text x="25" y="36" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20" fill="#dc3545">✕</text>
+    <text x="25" y="78" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#dc3545">Extraneous</text>
+    <text x="25" y="94" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#888">the noise around it</text>
+  </g>
+  <!-- Plus -->
+  <text x="385" y="48" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#555">+</text>
+  <!-- Germane -->
+  <g transform="translate(450, 20)">
+    <rect x="0" y="5" width="50" height="50" rx="6" fill="#28a745" opacity="0.15" stroke="#28a745" stroke-width="1.5"/>
+    <text x="25" y="36" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20" fill="#28a745">◈</text>
+    <text x="25" y="78" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#28a745">Germane</text>
+    <text x="25" y="94" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#888">the learning that sticks</text>
+  </g>
+  <!-- Equals -->
+  <text x="560" y="48" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#555">=</text>
+  <!-- Total -->
+  <g transform="translate(590, 20)">
+    <text x="25" y="30" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#e0e0e0">Total</text>
+    <text x="25" y="50" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#e0e0e0">Cognitive</text>
+    <text x="25" y="66" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#e0e0e0">Load</text>
+  </g>
+  <!-- Bottom line -->
+  <line x1="60" y1="115" x2="640" y2="115" stroke="#333" stroke-width="1"/>
+  <text x="350" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#888">reduce the red, protect the green, and the yellow gets easier</text>
+</svg>
