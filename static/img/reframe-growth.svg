@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120">
+  <rect width="800" height="120" fill="#1a1a1a"/>
+  <!-- Seedling -->
+  <line x1="400" y1="78" x2="400" y2="35" stroke="#28a745" stroke-width="2.5"/>
+  <path d="M400,50 Q385,35 378,20 Q392,30 400,45" fill="#28a745" opacity="0.4"/>
+  <path d="M400,35 Q415,22 422,8 Q408,20 400,32" fill="#28a745" opacity="0.4"/>
+  <!-- Ground -->
+  <line x1="375" y1="78" x2="425" y2="78" stroke="#555" stroke-width="2"/>
+  <!-- Upward arrow -->
+  <line x1="440" y1="70" x2="440" y2="20" stroke="#28a745" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.4"/>
+  <polygon points="436,20 440,10 444,20" fill="#28a745" opacity="0.4"/>
+  <text x="400" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#28a745">Growth &amp; Learning</text>
+</svg>

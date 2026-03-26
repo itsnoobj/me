@@ -34,3 +34,9 @@ game-theory:
 collaboration:
   label: Collaboration
   permalink: /collaboration
+self-journal:
+  label: Self Journal
+  permalink: /self-journal
+personal-growth:
+  label: Personal Growth
+  permalink: /personal-growth

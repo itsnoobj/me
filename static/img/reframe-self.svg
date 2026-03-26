@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120">
+  <rect width="800" height="120" fill="#1a1a1a"/>
+  <!-- Mirror -->
+  <ellipse cx="400" cy="42" rx="28" ry="38" fill="none" stroke="#9b7fdb" stroke-width="2"/>
+  <!-- Reflection shimmer -->
+  <line x1="388" y1="25" x2="388" y2="55" stroke="#9b7fdb" stroke-width="1" opacity="0.25"/>
+  <line x1="400" y1="15" x2="400" y2="65" stroke="#9b7fdb" stroke-width="1" opacity="0.15"/>
+  <line x1="412" y1="25" x2="412" y2="55" stroke="#9b7fdb" stroke-width="1" opacity="0.25"/>
+  <!-- Stand -->
+  <line x1="400" y1="80" x2="400" y2="90" stroke="#9b7fdb" stroke-width="2"/>
+  <line x1="385" y1="90" x2="415" y2="90" stroke="#9b7fdb" stroke-width="2"/>
+  <text x="400" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#9b7fdb">Self &amp; Identity</text>
+</svg>

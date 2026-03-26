@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120">
+  <rect width="800" height="120" fill="#1a1a1a"/>
+  <!-- House -->
+  <polygon points="400,10 360,40 440,40" fill="none" stroke="#f5c542" stroke-width="2"/>
+  <rect x="365" y="40" width="70" height="40" fill="none" stroke="#f5c542" stroke-width="2"/>
+  <!-- Door -->
+  <rect x="390" y="55" width="18" height="25" rx="1" fill="none" stroke="#f5c542" stroke-width="1.5"/>
+  <!-- Windows with warm glow -->
+  <rect x="372" y="48" width="12" height="12" fill="#f5c542" opacity="0.25"/>
+  <rect x="414" y="48" width="12" height="12" fill="#f5c542" opacity="0.25"/>
+  <text x="400" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#f5c542">Family &amp; Friends</text>
+</svg>

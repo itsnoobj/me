@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120">
+  <rect width="800" height="120" fill="#1a1a1a"/>
+  <!-- Two figures -->
+  <circle cx="385" cy="22" r="10" fill="none" stroke="#e06090" stroke-width="2"/>
+  <line x1="385" y1="32" x2="385" y2="55" stroke="#e06090" stroke-width="2"/>
+  <line x1="385" y1="55" x2="375" y2="75" stroke="#e06090" stroke-width="2"/>
+  <line x1="385" y1="55" x2="395" y2="75" stroke="#e06090" stroke-width="2"/>
+  <circle cx="415" cy="22" r="10" fill="none" stroke="#e06090" stroke-width="2"/>
+  <line x1="415" y1="32" x2="415" y2="55" stroke="#e06090" stroke-width="2"/>
+  <line x1="415" y1="55" x2="405" y2="75" stroke="#e06090" stroke-width="2"/>
+  <line x1="415" y1="55" x2="425" y2="75" stroke="#e06090" stroke-width="2"/>
+  <!-- Shared path -->
+  <line x1="400" y1="78" x2="400" y2="92" stroke="#e06090" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <polygon points="396,92 400,100 404,92" fill="#e06090" opacity="0.6"/>
+  <text x="400" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#e06090">Relationships</text>
+</svg>

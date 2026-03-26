@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120">
+  <rect width="800" height="120" fill="#1a1a1a"/>
+  <!-- Hourglass -->
+  <line x1="370" y1="15" x2="430" y2="15" stroke="#f0a500" stroke-width="2"/>
+  <line x1="370" y1="85" x2="430" y2="85" stroke="#f0a500" stroke-width="2"/>
+  <line x1="375" y1="15" x2="425" y2="85" stroke="#f0a500" stroke-width="1.5"/>
+  <line x1="425" y1="15" x2="375" y2="85" stroke="#f0a500" stroke-width="1.5"/>
+  <!-- Sand top -->
+  <polygon points="388,30 412,30 400,48" fill="#f0a500" opacity="0.3"/>
+  <!-- Sand bottom -->
+  <polygon points="388,70 412,70 400,52" fill="#f0a500" opacity="0.5"/>
+  <!-- Falling grain -->
+  <circle cx="400" cy="50" r="1.5" fill="#f0a500"/>
+  <text x="400" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#f0a500">Time</text>
+</svg>

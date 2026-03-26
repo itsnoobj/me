@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120">
+  <rect width="800" height="120" fill="#1a1a1a"/>
+  <!-- Door frame -->
+  <rect x="380" y="10" width="40" height="70" rx="2" fill="none" stroke="#28a745" stroke-width="2"/>
+  <!-- Open door (angled) -->
+  <path d="M380,10 L365,18 L365,72 L380,80" fill="#1a1a1a" stroke="#28a745" stroke-width="2"/>
+  <!-- Light rays coming through -->
+  <line x1="395" y1="30" x2="430" y2="20" stroke="#28a745" stroke-width="1" opacity="0.3"/>
+  <line x1="395" y1="45" x2="435" y2="45" stroke="#28a745" stroke-width="1" opacity="0.3"/>
+  <line x1="395" y1="60" x2="430" y2="70" stroke="#28a745" stroke-width="1" opacity="0.3"/>
+  <text x="400" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#28a745">Money</text>
+</svg>
