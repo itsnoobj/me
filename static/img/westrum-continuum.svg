@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf6f0"/>
+      <stop offset="100%" stop-color="#f0e6d8"/>
+    </linearGradient>
+    <linearGradient id="spectrumGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c45a3c"/>
+      <stop offset="50%" stop-color="#c4963c"/>
+      <stop offset="100%" stop-color="#4a8a5a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="380" fill="url(#bgGrad)"/>
+
+  <text x="400" y="35" text-anchor="middle" font-size="20" font-weight="bold" fill="#3a2a1a">Westrum's Organisational Culture</text>
+  <text x="400" y="57" text-anchor="middle" font-size="13" fill="#7a6a5a" font-style="italic">How information flows tells you everything</text>
+
+  <!-- Spectrum bar -->
+  <rect x="60" y="75" width="680" height="6" rx="3" fill="url(#spectrumGrad)" opacity="0.7"/>
+
+  <!-- Three columns -->
+  <!-- Pathological -->
+  <g transform="translate(60, 95)">
+    <rect width="210" height="230" rx="8" fill="#c45a3c" opacity="0.06" stroke="#c45a3c" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="105" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#c45a3c">Pathological</text>
+    <text x="105" y="48" text-anchor="middle" font-size="11" fill="#7a6a5a">Power-oriented</text>
+    <text x="20" y="78" font-size="12" fill="#5a4a3a">• Information withheld</text>
+    <text x="20" y="100" font-size="12" fill="#5a4a3a">• Messengers "shot"</text>
+    <text x="20" y="122" font-size="12" fill="#5a4a3a">• Responsibilities shirked</text>
+    <text x="20" y="144" font-size="12" fill="#5a4a3a">• Bridging discouraged</text>
+    <text x="20" y="166" font-size="12" fill="#5a4a3a">• Failure → scapegoating</text>
+    <text x="20" y="188" font-size="12" fill="#5a4a3a">• Novelty crushed</text>
+  </g>
+
+  <!-- Bureaucratic -->
+  <g transform="translate(295, 95)">
+    <rect width="210" height="230" rx="8" fill="#c4963c" opacity="0.06" stroke="#c4963c" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="105" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#c4963c">Bureaucratic</text>
+    <text x="105" y="48" text-anchor="middle" font-size="11" fill="#7a6a5a">Rule-oriented</text>
+    <text x="20" y="78" font-size="12" fill="#5a4a3a">• Information ignored</text>
+    <text x="20" y="100" font-size="12" fill="#5a4a3a">• Messengers tolerated</text>
+    <text x="20" y="122" font-size="12" fill="#5a4a3a">• Narrow responsibilities</text>
+    <text x="20" y="144" font-size="12" fill="#5a4a3a">• Bridging allowed</text>
+    <text x="20" y="166" font-size="12" fill="#5a4a3a">• Failure → more process</text>
+    <text x="20" y="188" font-size="12" fill="#5a4a3a">• Novelty causes problems</text>
+  </g>
+
+  <!-- Generative -->
+  <g transform="translate(530, 95)">
+    <rect width="210" height="230" rx="8" fill="#4a8a5a" opacity="0.06" stroke="#4a8a5a" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="105" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#4a8a5a">Generative</text>
+    <text x="105" y="48" text-anchor="middle" font-size="11" fill="#7a6a5a">Performance-oriented</text>
+    <text x="20" y="78" font-size="12" fill="#5a4a3a">• Information actively sought</text>
+    <text x="20" y="100" font-size="12" fill="#5a4a3a">• Messengers trained</text>
+    <text x="20" y="122" font-size="12" fill="#5a4a3a">• Risks shared</text>
+    <text x="20" y="144" font-size="12" fill="#5a4a3a">• Bridging encouraged</text>
+    <text x="20" y="166" font-size="12" fill="#5a4a3a">• Failure → inquiry</text>
+    <text x="20" y="188" font-size="12" fill="#5a4a3a">• Novelty implemented</text>
+  </g>
+
+  <!-- Arrows -->
+  <text x="278" y="220" font-size="18" fill="#7a6a5a" text-anchor="middle">→</text>
+  <text x="518" y="220" font-size="18" fill="#7a6a5a" text-anchor="middle">→</text>
+
+  <!-- "Most orgs are here" marker -->
+  <text x="400" y="350" text-anchor="middle" font-size="12" fill="#c4963c" font-style="italic">↑ most orgs I've seen are here</text>
+</svg>

@@ -49,3 +49,16 @@ date: YYYY-MM-DD
 - Opinionated is good. Preachy is not. The difference: opinionated says "here's what I think and why." Preachy says "here's what you should do."
 - Back claims with research, named frameworks, or real-world examples — not authority of voice
 - Vulnerability and honesty > confidence and certainty
+
+## Writing Style
+
+The voice is "thinking out loud" — someone working through an idea in real-time, not delivering a polished conclusion.
+
+- **Reason in front of the reader.** "Hmmm... but if that's true, then why..." — show the thought process, not just the result.
+- **Conversational asides build trust.** Parentheticals, self-corrections, small jokes, "bear with me" moments. These signal a person, not a content machine.
+- **Honest about uncertainty.** "I don't know if this is right." / "Maybe I'm wrong about this." No false confidence. Strong positions held lightly.
+- **First person, always.** "Here's what I keep seeing." "I've been in this room." Write as someone who's lived it, not observed it from a distance.
+- **Structural clarity without formality.** Headers feel like natural thought transitions, not a slide deck. The writing breathes — short paragraphs, varied rhythm.
+- **Frameworks as evidence, not structure.** Research and named models (Westrum, Lencioni, etc.) are woven into the narrative as supporting proof — never presented as sections to be explained or taught.
+- **Leave room for disagreement.** Present ideas as "this is how I make sense of it" not "this is the truth." The reader is smart enough to decide for themselves.
+- **No filler, no fluff.** Every sentence earns its place. If it doesn't add insight, humor, or momentum — cut it.

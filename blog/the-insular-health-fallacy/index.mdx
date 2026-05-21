@@ -1,0 +1,193 @@
+---
+slug: the-insular-health-fallacy
+title: "We're Fine. It's Them."
+authors: [jeevan_dc]
+tags: [engineering, culture, leadership, collaboration]
+date: 2026-05-21
+image: /img/insular-health-banner.png
+---
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <img src="/img/insular-health-banner.svg" alt="The Insular Health Fallacy" style={{width: '100%', maxWidth: '700px', borderRadius: '8px'}} />
+</div>
+
+You know the feeling. Your team's retros are positive. Velocity is stable. People genuinely like working together. Psych safety is high — folks admit mistakes, ask dumb questions, challenge each other without it getting weird. By every internal measure, you're a healthy, high-performing team.
+
+And yet.
+
+Every dependency is a nightmare. Every cross-team interaction feels like pulling teeth. You're waiting three weeks for a PR review from another squad. Their API keeps breaking yours. Planning sessions with them feel like hostage negotiations. And the conclusion your team reaches — naturally, inevitably — is: "We're fine. It's *them*."
+
+I've been in this room. Multiple times. On both sides of it. And I've come to believe that this specific pattern — a team that feels healthy internally but generates friction at every boundary — is one of the most dangerous failure modes in engineering orgs. Not because it's dramatic, but because it's invisible. The team genuinely *is* healthy by local measures. That's what makes it so hard to diagnose.
+
+I've started calling this the **insular health fallacy** — the belief that internal team health equals systemic health. The team isn't broken. The *interface* is broken. But from inside, it looks like everyone else is the problem.
+
+Social psychology has a name for the underlying mechanism: **in-group bias**. The [minimal group experiments](https://en.wikipedia.org/wiki/Minimal_group_paradigm) in the 1970s showed that people will favour their own group — even when the groups are assigned *randomly*. Give people a label, any label, and they'll start preferring "us" over "them." Now imagine what happens when "us" is a team that's genuinely built trust, shared context, and psychological safety over months or years. The in-group cohesion becomes a fortress. And fortresses, by design, keep people out.
+
+<!-- truncate -->
+
+## Three structures I keep thinking about
+
+Here's the thing I keep coming back to. There's this idea from [Team Topologies](https://teamtopologies.com/) (and org sociology before it) that every organisation has three structures running simultaneously:
+
+1. **The formal structure** — the org chart. Who reports to whom. This exists mostly for HR and finance.
+2. **The informal structure** — who actually talks to whom. The Slack DMs, the coffee chats, the "hey, quick question" interrupts.
+3. **The value creation structure** — how work actually flows from idea to customer. The path a feature takes through design, code, review, deploy, feedback.
+
+Most teams optimise their *informal* structure beautifully. They build trust, they communicate well, they develop shared context. That's what good team-building does. But here's the trap: if that internal cohesion doesn't align with the *value creation* structure — the actual flow of work across boundaries — you end up with a team that's a joy to be inside and a wall to everyone outside.
+
+[Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) makes this concrete. Your software architecture is a mirror of your communication structure. If the communication between teams is defensive, guarded, or just... absent — your architecture will reflect that. Tightly coupled monoliths. Unclear ownership boundaries. Integration points that nobody wants to touch because touching them means *talking to that other team*.
+
+And there's another psychological trap compounding this: the **[fundamental attribution error](https://en.wikipedia.org/wiki/Fundamental_attribution_error)**. When *we* miss a deadline, it's because of circumstances — the requirements changed, the dependency was late, we were under-resourced. When *they* miss a deadline? It's because they're incompetent, or they don't care, or they're not prioritising properly. We judge ourselves by our intentions and others by their actions. Scale that across ten teams and you get an org where everyone believes they're the only competent group surrounded by idiots. Nobody's lying. Everyone's just... human.
+
+## But wait — if the team is healthy, why does everything break at the edges?
+
+[Patrick Lencioni's five dysfunctions](https://en.wikipedia.org/wiki/The_Five_Dysfunctions_of_a_Team) model is usually applied within a team — and most teams have internalised it by now. But here's what I think gets missed: these same dysfunctions show up *between* teams. And at the team-of-teams level, they're harder to see because no single team owns the problem.
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <img src="/img/fractal-dysfunctions.svg" alt="Lencioni's Dysfunctions Scaled to Inter-Team Boundaries" style={{width: '100%', maxWidth: '750px', borderRadius: '8px'}} />
+</div>
+
+The pattern I keep seeing: each of these dysfunctions is *invisible from inside the team*. Your team has trust — with each other. Your team has healthy conflict — with each other. The dysfunction lives at the boundary, where nobody feels ownership and everyone assumes it's the other side's fault.
+
+The root of it, I think, is how organisations define the primary boundary of belonging. If leaders build their identity around the team they manage rather than the peer group they're part of, their reports mirror that. And you get fiefdoms — each one internally healthy, collectively stuck. (More on this in a moment.)
+
+Which got me thinking about *why* this happens structurally — not just behaviourally.
+
+## OK so why does the system stay stuck though?
+
+There's a core idea in systems thinking — captured well in Donella Meadows' [*Thinking in Systems*](https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer) — that the performance of a system is governed by how its parts *interact*, not by how they perform in isolation. You cannot divide a system into independently optimised parts and expect the whole to be optimised. That's not how systems work.
+
+And yet. That's exactly what most orgs do. (I keep catching myself doing it too — optimising my team's workflow without asking "but what does this do to the team downstream?")
+
+Here's a scenario I keep seeing. You have three teams in a value stream: a frontend team, a backend team, and a platform team that handles deployments and infra. The frontend and backend teams are fast — they've got spare capacity, good tooling, strong engineers. The platform team is smaller, handles more services, and is already at capacity.
+
+What happens? The frontend and backend teams, under pressure to show output, keep shipping features. PRs pile up waiting for platform review. Infra tickets queue up. The platform team — already the constraint — now drowns in coordination overhead from *two* teams pushing work at them simultaneously. Lead time for the whole system inflates. Not because anyone's slow, but because the non-bottleneck teams are producing faster than the bottleneck can absorb.
+
+The instinct is "platform team needs to be faster." The counterintuitive move is "everyone else needs to produce *less* — or produce things that don't hit the constraint." It feels like waste. But the alternative is a queue that grows forever.
+
+[Little's Law](https://en.wikipedia.org/wiki/Little%27s_law) describes this dynamic: Lead Time = Work in Progress / Throughput. Push WIP up without increasing throughput at the constraint, and lead time goes up. It's a simplification — real orgs aren't stable steady-state systems — but the directional truth holds. More work in flight with the same capacity at the constraint means longer waits. Every time. (I explored this through the lens of game theory in [Why Everyone's Busy But Nothing Ships Faster](/blog/why-everyones-busy-but-nothing-ships-faster) — same dynamic, different angle.)
+
+And there's an emotional dimension to this stuckness that pure systems thinking misses. Otto Scharmer's [Theory U](https://en.wikipedia.org/wiki/Theory_U) names three "voices" that keep systems frozen:
+
+- **Voice of Judgment** — "We already know how they work. They're just slow."
+- **Voice of Cynicism** — "Why bother reaching out? They'll just say no."
+- **Voice of Fear** — "If we change the interface, everything might break."
+
+These aren't rational assessments. They're emotional defence mechanisms. And they're *contagious* across teams. One bad interaction poisons the well for months.
+
+The fix isn't to make teams work harder. It's to make the *interactions* work better.
+
+## Alright, so what actually helps?
+
+Alright, here's where I shift from diagnosis to "here's what I've seen move the needle." I want to be honest — there's no silver bullet. And I'm not sure I've fully cracked this myself. But a few structural interventions have consistently made a difference in places I've worked. Bear with me — some of these sound obvious, but the devil is in *actually doing them*.
+
+### Cognitive overload kills the boundary first
+
+There's a reason the insular health fallacy thrives in overloaded teams. When a team's cognitive capacity is maxed out — too many domains, too many services, too much context to hold — they don't just slow down. They start shedding context. And the first context they shed is the cross-boundary stuff. The integration points. The shared contracts. The things that make the *system* work. Internal work feels urgent and controllable. Cross-team work feels optional and exhausting. So it drops.
+
+[Team Topologies](https://teamtopologies.com/) calls this out directly: a team can handle 2-3 simple domains, maybe one complicated domain, and absolutely cannot handle two complex domains simultaneously. [Robin Dunbar's research](https://en.wikipedia.org/wiki/Dunbar%27s_number) on social group sizes points to the same constraint from a different angle — our brains can only maintain so many stable relationships before communication overhead overwhelms capacity. If the team boundaries are drawn wrong (too broad, too many services, too much cognitive load), no amount of good intentions will fix the boundary friction. The team will always retreat inward.
+
+I explored this in [Your Agents Are Running. So Why Are You Still Exhausted?](/blog/cognitive-load-agentic-ai) — cognitive load isn't just about individual developers. It's about teams. And it's about what happens when you exceed the limit.
+
+### The team interface as a product
+
+This is the "Team API" idea, and it's the single most practical intervention I've seen for the insular health fallacy.
+
+The concept: every team publishes and maintains a lightweight interface — like a software API, but for the team itself. It answers:
+
+- What do we own? What's our mission?
+- How do you reach us? (Not "DM someone" — a channel, office hours, a request template)
+- What's our intake process? What does "ready" look like for a request?
+- What are our SLOs? How fast will we respond?
+- What are our dependencies? What are we blocked by?
+- Where's our documentation? Our APIs? Our schemas?
+
+Here's what this looks like in practice. A platform team I worked with was drowning in ad-hoc requests via DMs. Every interaction was a negotiation. Response times were unpredictable — sometimes same-day, sometimes two weeks. Other teams resented them. They resented other teams for "not reading the docs."
+
+They published a Team API: a single wiki page with their intake template, a public Slack channel for requests, stated SLOs, and a clear "Definition of Ready" for what they needed before they could start. Within a month, the DMs dropped by 80%. The resentment dropped with it. Not because people changed — because the *structure* changed.
+
+The shift is from *diplomacy* to *contract*. Instead of cross-team collaboration depending on personal relationships — who you know, who owes you a favour, who's in a good mood today — it depends on a predictable, published interface. Teams can change their internals however they want, as long as the API holds.
+
+This connects to something I wrote about in [The Prisoner's Dilemma Is Why You Got Ghosted on Slack](/blog/game-theory-engineering-collaboration). The reason you get ghosted isn't malice — it's that the game doesn't reward responding. A Team API changes the game. It makes responsiveness a *structural* property, not a personal one.
+
+### Map the value stream before reorganising anything
+
+Before touching team boundaries or org charts, the most useful thing I've seen is simply *mapping* how work actually flows end-to-end. Pick a recent feature that touched multiple teams. Trace it from idea to production. Mark every handoff, every queue, every wait.
+
+What you'll typically find: 80% of the elapsed time is *waiting*, not *working*. The feature sat in someone's backlog for three weeks. Then it waited for a review for five days. Then it waited for a deployment window. The actual coding took two days. The system took six weeks.
+
+This makes the insular health fallacy viscerally visible. Your team's two-day turnaround is real — but it's invisible inside a six-week lead time. The value stream map shows everyone where the time actually goes. And suddenly "we're fine, it's them" becomes "oh... we're all part of this."
+
+### Embed people across the boundary
+
+Temporarily sending someone from Team A to sit with Team B for a sprint — not a reorg, just exposure. I've seen this kill the fundamental attribution error faster than any process change. It's hard to dehumanise people once you've paired with them, sat in their standups, felt their constraints firsthand. The person comes back and says "actually, they're dealing with way more than I realised." That one sentence does more for cross-team trust than six months of joint planning sessions.
+
+### Joint retros across team boundaries
+
+Not just "our retro" — a quarterly retro between the two teams that interact most. Forces the conversation nobody wants to have. "What's working between us? What's not? What do we keep misunderstanding about each other?" It's uncomfortable the first time. By the third time, it's just how things work. The boundary stops being a wall and starts being a shared surface.
+
+### The Inverse Conway Maneuver
+
+This one's counterintuitive. [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) says architecture mirrors communication structure. The inverse: deliberately restructure communication to *force* the architecture you want. If two services need a clean API boundary, make the teams interact through that API — not through Slack threads and shared meetings. The social structure shapes the technical structure. So the lever is the social structure — not the code.
+
+### Leadership has to go first
+
+(I almost didn't include this section because it sounds like every leadership blog ever written. But honestly? None of the other stuff works without it. So.)
+
+None of this works if leadership is still optimising for their department. I've seen this pattern play out: leaders who build their identity around the team they manage rather than the leadership group they're part of. Lencioni calls this the "First Team" problem — the idea that a leader's primary allegiance should be to their peer group, not their direct reports.
+
+This is genuinely hard. Performance reviews reward local delivery. Headcount battles reward empire-building. Promotion narratives reward "I grew my team from 5 to 20." The incentives all point toward local optimisation. So practicing "First Team" requires actively swimming against the current.
+
+The "hat swapping" model is the most practical version I've encountered. Every leader wears two hats:
+
+The **portfolio hat** — advocating for the team's capacity, constraints, and needs. Fighting for resources. Legitimate and necessary.
+
+The **organisational hat** — making decisions optimised for the system, even when that means the team absorbs cost or gives up resources.
+
+The key is being *explicit* about which hat is being worn. "Right now I'm wearing my portfolio hat — my team genuinely can't absorb this without dropping something else." vs. "Wearing my org hat — I think the right call for the system is X, even though it costs my team."
+
+What this does is model vulnerability at the leadership level. It shows that strategic sacrifice for systemic health isn't defeat. And it gives other leaders permission to do the same. I've watched a single leader doing this consistently shift the dynamic of an entire leadership group within a quarter.
+
+## Culture changes when behaviour changes first
+
+I want to be honest about something here. Some of what I just described — publishing a Team API, mapping a value stream — that's within reach. A single team can start tomorrow. But embedding people across boundaries, joint retros, the Inverse Conway Maneuver, leadership going first — those need buy-in. From peers. From above. Sometimes from the whole system.
+
+And that's the uncomfortable part of systemic problems: the team that *sees* the problem most clearly often can't fix it alone. It requires top-down support, lateral trust, and patience that most orgs don't reward. I don't have a clean answer for that. I just know that starting with what's in reach — and being vocal about what isn't — tends to create more space over time than waiting for permission.
+
+Here's the last piece, and maybe the most important. You can't *think* your way into a generative culture. You have to *behave* your way into it.
+
+[John Shook's insight from NUMMI](https://sloanreview.mit.edu/article/how-to-change-a-culture-lessons-from-nummi/) (the Toyota-GM joint venture) was that trying to change people's mindsets first is almost always ineffective. What works is changing what people *do* — the structures, the practices, the daily rituals — and letting the mindset follow.
+
+[Ron Westrum's cultural typology](https://dora.dev/capabilities/generative-organizational-culture/) gives you a way to sense where you are:
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <img src="/img/westrum-continuum.svg" alt="Westrum's Organisational Culture Typology" style={{width: '100%', maxWidth: '750px', borderRadius: '8px'}} />
+</div>
+
+- **Pathological** — information is withheld, messengers are shot, failure leads to blame, novelty is crushed.
+- **Bureaucratic** — information is compartmentalised, messengers are ignored, failure leads to more process, novelty causes problems.
+- **Generative** — information is actively sought, messengers are trained, failure leads to inquiry, novelty is implemented.
+
+Most orgs I've seen aren't pathological. They're bureaucratic. And the move from bureaucratic to generative isn't about grand cultural transformation programs. It's about small structural changes that make generative behaviour the path of least resistance.
+
+And if this feels like a problem unique to your org — it's not. Randy Shoup's [talk on eBay's Velocity initiative](https://www.infoq.com/presentations/platform-engineering-lessons/) is one of the most honest case studies I've seen. His team doubled engineering productivity, improved deployment frequency 10x, lead time 5x — genuinely elite technical execution. And it still didn't save the company. Waterfall planning, empire-building, and what Shoup explicitly calls a "pathological" culture of fear meant the system stayed stuck despite the parts getting faster. The technical bottlenecks were solved. The structural and cultural ones weren't. That's the gap this whole post is about.
+
+Two things I keep noticing in teams that escape this trap — and both are conspicuously absent in insular teams:
+
+The healthiest teams I've seen *actively imagine* what could go wrong, even when everything looks fine. Research on [High Reliability Organisations](https://en.wikipedia.org/wiki/High_reliability_organization) (think aircraft carriers, nuclear plants) calls this **requisite imagination** — the ability to look past comfortable assumptions and sense weak signals before they become crises. The insular team lacks this entirely. They can't imagine that their internal health might be the system's bottleneck.
+
+And those same teams treat silence from other teams as a warning sign, not a green light. Safety science and James Reason's work on organisational accidents calls this **chronic unease** — a healthy vigilance where the *absence* of problems makes you more anxious, not less. Complacency — the belief that because nothing has gone wrong, nothing will — is the most dangerous state.
+
+The insular health fallacy is, at its core, a failure of both. The team can't imagine it's the bottleneck, and the absence of internal problems feels like proof everything's fine. The structure has to create the conditions where these qualities emerge naturally.
+
+## Where this leaves us
+
+The insular health fallacy is comfortable. It feels *good* to be on a team that works well together and to believe the problem is everyone else. Letting go of that narrative means admitting that maybe the team's health is incomplete. That internal cohesion without external alignment is... incomplete.
+
+I don't think most teams do this consciously. I certainly didn't, the times I was part of it. But recognising the pattern is the first step. And the fix isn't to break what works internally — it's to extend that same intentionality to the boundaries.
+
+The team that's genuinely high-performing isn't the one with the best retros. It's the one that other teams *want* to work with. That's the bar.
+
+[Deming](https://deming.org/optimize-the-overall-system-not-the-individual-components/) said it decades ago: *"A system must be managed. It will not manage itself. Left to themselves, components become selfish, competitive, independent profit centres, and thus destroy the system."*
+
+That's the insular health fallacy in one sentence. Your team isn't the system. The system is what happens between teams. And that's where the real work lives.

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" fill="none">
+  <rect width="900" height="400" fill="#1a1a1a"/>
+  
+  <!-- Divider -->
+  <line x1="450" y1="70" x2="450" y2="340" stroke="#888" stroke-width="1" stroke-dasharray="5 5" opacity="0.3"/>
+  
+  <!-- LEFT: What the team sees -->
+  <text x="225" y="60" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#4a9eff" opacity="0.8">what the team sees</text>
+  
+  <!-- Simple healthy team icon -->
+  <circle cx="225" cy="190" r="70" fill="#4a9eff" opacity="0.05" stroke="#4a9eff" stroke-width="1.5" stroke-opacity="0.3"/>
+  <circle cx="200" cy="170" r="16" fill="#4a9eff" opacity="0.6"/>
+  <circle cx="250" cy="170" r="16" fill="#4a9eff" opacity="0.6"/>
+  <circle cx="225" cy="215" r="16" fill="#4a9eff" opacity="0.6"/>
+  <line x1="200" y1="170" x2="250" y2="170" stroke="#4a9eff" stroke-width="2" opacity="0.4"/>
+  <line x1="200" y1="170" x2="225" y2="215" stroke="#4a9eff" stroke-width="2" opacity="0.4"/>
+  <line x1="250" y1="170" x2="225" y2="215" stroke="#4a9eff" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Positive signals -->
+  <text x="225" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#4a9eff" opacity="0.8">✓ trust</text>
+  <text x="225" y="318" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#4a9eff" opacity="0.8">✓ velocity</text>
+  <text x="225" y="341" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#4a9eff" opacity="0.8">✓ psych safety</text>
+  
+  <!-- RIGHT: What the system sees -->
+  <text x="675" y="60" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#c45a3c" opacity="0.8">what the system sees</text>
+  
+  <!-- Blocked flow diagram -->
+  <rect x="520" y="130" width="80" height="40" rx="6" fill="none" stroke="#888" stroke-width="1.5" opacity="0.5"/>
+  <text x="560" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#888">Team A</text>
+  
+  <text x="625" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#c45a3c" opacity="0.7">✕</text>
+  
+  <rect x="650" y="130" width="80" height="40" rx="6" fill="none" stroke="#4a9eff" stroke-width="2" opacity="0.8"/>
+  <text x="690" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#4a9eff">Team B</text>
+  
+  <text x="755" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#c45a3c" opacity="0.7">✕</text>
+  
+  <rect x="780" y="130" width="80" height="40" rx="6" fill="none" stroke="#888" stroke-width="1.5" opacity="0.5"/>
+  <text x="820" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#888">Team C</text>
+  
+  <!-- Negative signals -->
+  <text x="540" y="215" font-family="system-ui, sans-serif" font-size="15" fill="#c45a3c" opacity="0.8">✕ 3-week PR waits</text>
+  <text x="540" y="243" font-family="system-ui, sans-serif" font-size="15" fill="#c45a3c" opacity="0.8">✕ integration breaks in prod</text>
+  <text x="540" y="271" font-family="system-ui, sans-serif" font-size="15" fill="#c45a3c" opacity="0.8">✕ planning = theatre</text>
+  <text x="540" y="299" font-family="system-ui, sans-serif" font-size="15" fill="#c45a3c" opacity="0.8">✕ 8-week customer lead time</text>
+  
+  <!-- Bottom punchline -->
+  <text x="675" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.6">2 days coding. 38 days waiting.</text>
+  
+  <!-- Title at bottom -->
+  <text x="450" y="390" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#e0e0e0">We're Fine. It's Them.</text>
+</svg>
