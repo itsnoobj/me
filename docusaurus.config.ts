@@ -36,8 +36,9 @@ const config: Config = {
       {
         docs: false,
         blog: {
+          routeBasePath: "notes",
           showReadingTime: true,
-          blogSidebarTitle: "All posts",
+          blogSidebarTitle: "All notes",
           blogSidebarCount: "ALL",
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
@@ -61,7 +62,7 @@ const config: Config = {
     navbar: {
       title: "noobj.me",
       items: [
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/notes", label: "Notes", position: "left" },
       ],
     },
     footer: {

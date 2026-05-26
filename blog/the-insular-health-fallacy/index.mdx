@@ -65,7 +65,7 @@ What happens? The frontend and backend teams, under pressure to show output, kee
 
 The instinct is "platform team needs to be faster." The counterintuitive move is "everyone else needs to produce *less* — or produce things that don't hit the constraint." It feels like waste. But the alternative is a queue that grows forever.
 
-[Little's Law](https://en.wikipedia.org/wiki/Little%27s_law) describes this dynamic: Lead Time = Work in Progress / Throughput. Push WIP up without increasing throughput at the constraint, and lead time goes up. It's a simplification — real orgs aren't stable steady-state systems — but the directional truth holds. More work in flight with the same capacity at the constraint means longer waits. Every time. (I explored this through the lens of game theory in [Why Everyone's Busy But Nothing Ships Faster](/blog/why-everyones-busy-but-nothing-ships-faster) — same dynamic, different angle.)
+[Little's Law](https://en.wikipedia.org/wiki/Little%27s_law) describes this dynamic: Lead Time = Work in Progress / Throughput. Push WIP up without increasing throughput at the constraint, and lead time goes up. It's a simplification — real orgs aren't stable steady-state systems — but the directional truth holds. More work in flight with the same capacity at the constraint means longer waits. Every time. (I explored this through the lens of game theory in [Why Everyone's Busy But Nothing Ships Faster](/notes/why-everyones-busy-but-nothing-ships-faster) — same dynamic, different angle.)
 
 And there's an emotional dimension to this stuckness that pure systems thinking misses. Otto Scharmer's [Theory U](https://en.wikipedia.org/wiki/Theory_U) names three "voices" that keep systems frozen:
 
@@ -87,7 +87,7 @@ There's a reason the insular health fallacy thrives in overloaded teams. When a 
 
 [Team Topologies](https://teamtopologies.com/) calls this out directly: a team can handle 2-3 simple domains, maybe one complicated domain, and absolutely cannot handle two complex domains simultaneously. [Robin Dunbar's research](https://en.wikipedia.org/wiki/Dunbar%27s_number) on social group sizes points to the same constraint from a different angle — our brains can only maintain so many stable relationships before communication overhead overwhelms capacity. If the team boundaries are drawn wrong (too broad, too many services, too much cognitive load), no amount of good intentions will fix the boundary friction. The team will always retreat inward.
 
-I explored this in [Your Agents Are Running. So Why Are You Still Exhausted?](/blog/cognitive-load-agentic-ai) — cognitive load isn't just about individual developers. It's about teams. And it's about what happens when you exceed the limit.
+I explored this in [Your Agents Are Running. So Why Are You Still Exhausted?](/notes/cognitive-load-agentic-ai) — cognitive load isn't just about individual developers. It's about teams. And it's about what happens when you exceed the limit.
 
 ### The team interface as a product
 
@@ -108,7 +108,7 @@ They published a Team API: a single wiki page with their intake template, a publ
 
 The shift is from *diplomacy* to *contract*. Instead of cross-team collaboration depending on personal relationships — who you know, who owes you a favour, who's in a good mood today — it depends on a predictable, published interface. Teams can change their internals however they want, as long as the API holds.
 
-This connects to something I wrote about in [The Prisoner's Dilemma Is Why You Got Ghosted on Slack](/blog/game-theory-engineering-collaboration). The reason you get ghosted isn't malice — it's that the game doesn't reward responding. A Team API changes the game. It makes responsiveness a *structural* property, not a personal one.
+This connects to something I wrote about in [The Prisoner's Dilemma Is Why You Got Ghosted on Slack](/notes/game-theory-engineering-collaboration). The reason you get ghosted isn't malice — it's that the game doesn't reward responding. A Team API changes the game. It makes responsiveness a *structural* property, not a personal one.
 
 ### Map the value stream before reorganising anything
 

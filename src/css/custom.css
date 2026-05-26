@@ -120,3 +120,33 @@ article a {
     display: flex !important;
   }
 }
+
+/* Blog preamble */
+.blog-preamble {
+  max-width: 900px;
+  margin: 0 auto 2.5rem;
+  padding: 1.5rem 1.5rem 2rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  border-left: 3px solid var(--ifm-color-emphasis-300);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  opacity: 0.85;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 0 6px 6px 0;
+}
+
+.blog-preamble__heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.blog-preamble p {
+  margin-bottom: 0.75rem;
+}
+
+.blog-preamble p:last-child {
+  margin-bottom: 0;
+}
