@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 500" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf6f0"/>
+      <stop offset="100%" stop-color="#f0e6d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="850" height="500" fill="url(#bgGrad)"/>
+  <text x="425" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#3a2a1a">One Question, Five Threat Responses</text>
+  <text x="425" y="65" text-anchor="middle" font-size="15" fill="#7a6a5a" font-style="italic">David Rock's SCARF model — what fires when the new person asks "why?"</text>
+  <g transform="translate(50, 85)">
+    <circle cx="22" cy="24" r="22" fill="#c45a3c" opacity="0.12"/>
+    <text x="22" y="31" text-anchor="middle" font-size="20" font-weight="bold" fill="#c45a3c">S</text>
+    <text x="60" y="20" font-size="18" font-weight="bold" fill="#3a2a1a">Status</text>
+    <text x="60" y="42" font-size="15" fill="#5a4a3a">"Does this person think what I built is garbage?"</text>
+    <rect x="60" y="52" width="720" height="24" rx="4" fill="#c45a3c" opacity="0.05"/>
+    <text x="72" y="70" font-size="13" fill="#c45a3c" font-style="italic">My competence is being evaluated by someone who wasn't here.</text>
+  </g>
+  <g transform="translate(50, 170)">
+    <circle cx="22" cy="24" r="22" fill="#d4853c" opacity="0.12"/>
+    <text x="22" y="31" text-anchor="middle" font-size="20" font-weight="bold" fill="#d4853c">C</text>
+    <text x="60" y="20" font-size="18" font-weight="bold" fill="#3a2a1a">Certainty</text>
+    <text x="60" y="42" font-size="15" fill="#5a4a3a">"What's going to change? Am I safe here?"</text>
+    <rect x="60" y="52" width="720" height="24" rx="4" fill="#d4853c" opacity="0.05"/>
+    <text x="72" y="70" font-size="13" fill="#d4853c" font-style="italic">Questions signal incoming change. Change means uncertainty.</text>
+  </g>
+  <g transform="translate(50, 255)">
+    <circle cx="22" cy="24" r="22" fill="#c4963c" opacity="0.12"/>
+    <text x="22" y="31" text-anchor="middle" font-size="20" font-weight="bold" fill="#c4963c">A</text>
+    <text x="60" y="20" font-size="18" font-weight="bold" fill="#3a2a1a">Autonomy</text>
+    <text x="60" y="42" font-size="15" fill="#5a4a3a">"Am I about to lose control over my own work?"</text>
+    <rect x="60" y="52" width="720" height="24" rx="4" fill="#c4963c" opacity="0.05"/>
+    <text x="72" y="70" font-size="13" fill="#c4963c" font-style="italic">New leader asking = new leader deciding. My agency shrinks.</text>
+  </g>
+  <g transform="translate(50, 340)">
+    <circle cx="22" cy="24" r="22" fill="#7a6a5a" opacity="0.12"/>
+    <text x="22" y="31" text-anchor="middle" font-size="20" font-weight="bold" fill="#7a6a5a">R</text>
+    <text x="60" y="20" font-size="18" font-weight="bold" fill="#3a2a1a">Relatedness</text>
+    <text x="60" y="42" font-size="15" fill="#5a4a3a">"Is this person one of us, or bringing their own people?"</text>
+    <rect x="60" y="52" width="720" height="24" rx="4" fill="#7a6a5a" opacity="0.05"/>
+    <text x="72" y="70" font-size="13" fill="#7a6a5a" font-style="italic">Outsider with authority = potential threat to belonging.</text>
+  </g>
+  <g transform="translate(50, 425)">
+    <circle cx="22" cy="24" r="22" fill="#4a6a8a" opacity="0.12"/>
+    <text x="22" y="31" text-anchor="middle" font-size="20" font-weight="bold" fill="#4a6a8a">F</text>
+    <text x="60" y="20" font-size="18" font-weight="bold" fill="#3a2a1a">Fairness</text>
+    <text x="60" y="42" font-size="15" fill="#5a4a3a">"They weren't here for the hard parts. They don't get to judge."</text>
+    <rect x="60" y="52" width="720" height="24" rx="4" fill="#4a6a8a" opacity="0.05"/>
+    <text x="72" y="70" font-size="13" fill="#4a6a8a" font-style="italic">Judging outcomes without knowing constraints feels unjust.</text>
+  </g>
+</svg>

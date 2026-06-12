@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" fill="none">
+  <rect width="900" height="440" fill="#1a1a1a"/>
+  <text x="450" y="40" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#e0e0e0">The Interpretation Gap</text>
+  <text x="450" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#888" opacity="0.7">same words, different meaning — filtered through threat</text>
+  <text x="225" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" fill="#4a9eff" opacity="0.8">what was said</text>
+  <text x="675" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" fill="#c45a3c" opacity="0.8">what was heard</text>
+  <rect x="50" y="115" width="350" height="50" rx="8" fill="#4a9eff" opacity="0.06" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="225" y="146" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#4a9eff" opacity="0.9">"Why is this a monolith?"</text>
+  <line x1="410" y1="140" x2="490" y2="140" stroke="#888" stroke-width="1" opacity="0.3" stroke-dasharray="4 3"/>
+  <rect x="500" y="115" width="350" height="50" rx="8" fill="#c45a3c" opacity="0.06" stroke="#c45a3c" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="675" y="146" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#c45a3c" opacity="0.9">"You made a bad architecture choice."</text>
+  <rect x="50" y="180" width="350" height="50" rx="8" fill="#4a9eff" opacity="0.06" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="225" y="211" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#4a9eff" opacity="0.9">"Have we considered alternatives?"</text>
+  <line x1="410" y1="205" x2="490" y2="205" stroke="#888" stroke-width="1" opacity="0.3" stroke-dasharray="4 3"/>
+  <rect x="500" y="180" width="350" height="50" rx="8" fill="#c45a3c" opacity="0.06" stroke="#c45a3c" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="675" y="211" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#c45a3c" opacity="0.9">"Your approach is wrong."</text>
+  <rect x="50" y="245" width="350" height="50" rx="8" fill="#4a9eff" opacity="0.06" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="225" y="276" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#4a9eff" opacity="0.9">"What are the constraints here?"</text>
+  <line x1="410" y1="270" x2="490" y2="270" stroke="#888" stroke-width="1" opacity="0.3" stroke-dasharray="4 3"/>
+  <rect x="500" y="245" width="350" height="50" rx="8" fill="#c45a3c" opacity="0.06" stroke="#c45a3c" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="675" y="276" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#c45a3c" opacity="0.9">"Make excuses for why this is bad."</text>
+  <rect x="50" y="310" width="350" height="50" rx="8" fill="#4a9eff" opacity="0.06" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="225" y="341" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#4a9eff" opacity="0.9">"I want to understand the history."</text>
+  <line x1="410" y1="335" x2="490" y2="335" stroke="#888" stroke-width="1" opacity="0.3" stroke-dasharray="4 3"/>
+  <rect x="500" y="310" width="350" height="50" rx="8" fill="#c45a3c" opacity="0.06" stroke="#c45a3c" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="675" y="341" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#c45a3c" opacity="0.9">"I'm building a case to replace this."</text>
+  <text x="450" y="395" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.5">The medium strips intent. The power dynamic fills the gap with threat.</text>
+  <text x="450" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#888" opacity="0.4">— same question, face-to-face with coffee, would land completely differently —</text>
+</svg>

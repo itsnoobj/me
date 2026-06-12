@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" fill="none">
+  <rect width="900" height="420" fill="#1a1a1a"/>
+  <line x1="450" y1="80" x2="450" y2="340" stroke="#888" stroke-width="1" stroke-dasharray="5 5" opacity="0.3"/>
+  <text x="225" y="60" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#4a9eff" opacity="0.8">what the leader asks</text>
+  <rect x="75" y="100" width="300" height="70" rx="12" fill="#4a9eff" opacity="0.08" stroke="#4a9eff" stroke-width="1.5" stroke-opacity="0.3"/>
+  <text x="225" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#4a9eff" opacity="0.9">"Why was this designed</text>
+  <text x="225" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#4a9eff" opacity="0.9">this way?"</text>
+  <text x="225" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#888" opacity="0.6">intent:</text>
+  <text x="225" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#4a9eff" opacity="0.7">curiosity</text>
+  <text x="225" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#4a9eff" opacity="0.7">learning</text>
+  <text x="225" y="300" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#4a9eff" opacity="0.7">context-seeking</text>
+  <text x="675" y="60" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#c45a3c" opacity="0.8">what the team hears</text>
+  <rect x="525" y="100" width="300" height="70" rx="12" fill="#c45a3c" opacity="0.08" stroke="#c45a3c" stroke-width="1.5" stroke-opacity="0.3"/>
+  <text x="675" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#c45a3c" opacity="0.9">"Justify yourself."</text>
+  <text x="675" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#888" opacity="0.6">perceived as:</text>
+  <text x="675" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#c45a3c" opacity="0.7">audit</text>
+  <text x="675" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#c45a3c" opacity="0.7">judgment</text>
+  <text x="675" y="300" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#c45a3c" opacity="0.7">replacement signal</text>
+  <line x1="385" y1="135" x2="515" y2="135" stroke="#888" stroke-width="1.5" opacity="0.4" marker-end="url(#arrowhead)"/>
+  <text x="450" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.5">— text channel —</text>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#888" opacity="0.4"/>
+    </marker>
+  </defs>
+  <text x="450" y="395" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="600" fill="#e0e0e0">What the Team Hears When the New Leader Asks Questions</text>
+</svg>

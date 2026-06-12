@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" fill="none">
+  <rect width="900" height="320" fill="#1a1a1a"/>
+  <text x="450" y="35" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#888" opacity="0.7">context lost at each step</text>
+  <g transform="translate(30, 60)">
+    <rect width="175" height="180" rx="10" fill="#4a9eff" opacity="0.10" stroke="#4a9eff" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="87" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#4a9eff">face-to-face</text>
+    <text x="87" y="62" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#4a9eff" opacity="0.8">✓ words</text>
+    <text x="87" y="86" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#4a9eff" opacity="0.8">✓ tone</text>
+    <text x="87" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#4a9eff" opacity="0.8">✓ facial expression</text>
+    <text x="87" y="134" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#4a9eff" opacity="0.8">✓ body language</text>
+    <text x="87" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#4a9eff" opacity="0.8">✓ presence</text>
+  </g>
+  <text x="222" y="155" font-family="system-ui, sans-serif" font-size="20" fill="#888" opacity="0.4">→</text>
+  <g transform="translate(240, 60)">
+    <rect width="175" height="180" rx="10" fill="#7a8eff" opacity="0.08" stroke="#7a8eff" stroke-width="1.5" stroke-opacity="0.4"/>
+    <text x="87" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#7a8eff">video</text>
+    <text x="87" y="62" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#7a8eff" opacity="0.8">✓ words</text>
+    <text x="87" y="86" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#7a8eff" opacity="0.8">✓ tone</text>
+    <text x="87" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#7a8eff" opacity="0.8">✓ facial expression</text>
+    <text x="87" y="134" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.4">✕ body language</text>
+    <text x="87" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.4">✕ presence</text>
+  </g>
+  <text x="432" y="155" font-family="system-ui, sans-serif" font-size="20" fill="#888" opacity="0.4">→</text>
+  <g transform="translate(450, 60)">
+    <rect width="175" height="180" rx="10" fill="#a07acc" opacity="0.08" stroke="#a07acc" stroke-width="1.5" stroke-opacity="0.4"/>
+    <text x="87" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#a07acc">audio</text>
+    <text x="87" y="62" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#a07acc" opacity="0.8">✓ words</text>
+    <text x="87" y="86" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#a07acc" opacity="0.8">✓ tone</text>
+    <text x="87" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.4">✕ facial expression</text>
+    <text x="87" y="134" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.4">✕ body language</text>
+    <text x="87" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.4">✕ presence</text>
+  </g>
+  <text x="642" y="155" font-family="system-ui, sans-serif" font-size="20" fill="#888" opacity="0.4">→</text>
+  <g transform="translate(660, 60)">
+    <rect width="175" height="180" rx="10" fill="#c45a3c" opacity="0.08" stroke="#c45a3c" stroke-width="1.5" stroke-opacity="0.4"/>
+    <text x="87" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#c45a3c">text</text>
+    <text x="87" y="62" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#c45a3c" opacity="0.8">✓ words</text>
+    <text x="87" y="86" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.4">✕ tone</text>
+    <text x="87" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.4">✕ facial expression</text>
+    <text x="87" y="134" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.4">✕ body language</text>
+    <text x="87" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.4">✕ presence</text>
+  </g>
+  <text x="450" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#888" opacity="0.6">What remains when everything else is stripped: just words.</text>
+  <text x="450" y="300" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#888" opacity="0.4">And words without context get filled with whatever the reader is already feeling.</text>
+</svg>

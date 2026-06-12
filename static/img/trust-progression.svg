@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf6f0"/>
+      <stop offset="100%" stop-color="#f0e6d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="380" fill="url(#bgGrad2)"/>
+  <text x="430" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#3a2a1a">Trust Before Transformation</text>
+  <text x="430" y="62" text-anchor="middle" font-size="15" fill="#7a6a5a" font-style="italic">The sequence most new leaders get backwards</text>
+  <g transform="translate(40, 90)">
+    <text x="0" y="0" font-size="16" fill="#c45a3c" opacity="0.7">✕ The pattern that fails:</text>
+    <rect x="0" y="15" width="155" height="44" rx="7" fill="#c45a3c" opacity="0.06" stroke="#c45a3c" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="77" y="43" text-anchor="middle" font-size="15" fill="#c45a3c" opacity="0.8">Arrive with vision</text>
+    <text x="170" y="42" font-size="20" fill="#888" opacity="0.4">→</text>
+    <rect x="190" y="15" width="155" height="44" rx="7" fill="#c45a3c" opacity="0.06" stroke="#c45a3c" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="267" y="43" text-anchor="middle" font-size="15" fill="#c45a3c" opacity="0.8">Ask questions</text>
+    <text x="360" y="42" font-size="20" fill="#888" opacity="0.4">→</text>
+    <rect x="380" y="15" width="155" height="44" rx="7" fill="#c45a3c" opacity="0.06" stroke="#c45a3c" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="457" y="43" text-anchor="middle" font-size="15" fill="#c45a3c" opacity="0.8">Push changes</text>
+    <text x="550" y="42" font-size="20" fill="#888" opacity="0.4">→</text>
+    <rect x="570" y="15" width="210" height="44" rx="7" fill="#c45a3c" opacity="0.06" stroke="#c45a3c" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="675" y="43" text-anchor="middle" font-size="15" fill="#c45a3c" opacity="0.8">Wonder why team resists</text>
+  </g>
+  <g transform="translate(40, 200)">
+    <text x="0" y="0" font-size="16" fill="#4a7a5a" opacity="0.8">✓ The sequence that earns the right:</text>
+    <rect x="0" y="15" width="165" height="60" rx="7" fill="#4a7a5a" opacity="0.06" stroke="#4a7a5a" stroke-width="1.5" stroke-opacity="0.4"/>
+    <text x="82" y="40" text-anchor="middle" font-size="15" font-weight="bold" fill="#4a7a5a">Acknowledge</text>
+    <text x="82" y="60" text-anchor="middle" font-size="13" fill="#5a6a5a">"I see what you built."</text>
+    <text x="180" y="50" font-size="20" fill="#4a7a5a" opacity="0.5">→</text>
+    <rect x="200" y="15" width="165" height="60" rx="7" fill="#4a7a5a" opacity="0.08" stroke="#4a7a5a" stroke-width="1.5" stroke-opacity="0.4"/>
+    <text x="282" y="40" text-anchor="middle" font-size="15" font-weight="bold" fill="#4a7a5a">Be vulnerable</text>
+    <text x="282" y="60" text-anchor="middle" font-size="13" fill="#5a6a5a">"I might be wrong."</text>
+    <text x="380" y="50" font-size="20" fill="#4a7a5a" opacity="0.5">→</text>
+    <rect x="400" y="15" width="165" height="60" rx="7" fill="#4a7a5a" opacity="0.10" stroke="#4a7a5a" stroke-width="1.5" stroke-opacity="0.4"/>
+    <text x="482" y="40" text-anchor="middle" font-size="15" font-weight="bold" fill="#4a7a5a">Invite pushback</text>
+    <text x="482" y="60" text-anchor="middle" font-size="13" fill="#5a6a5a">"Tell me why not."</text>
+    <text x="580" y="50" font-size="20" fill="#4a7a5a" opacity="0.5">→</text>
+    <rect x="600" y="15" width="165" height="60" rx="7" fill="#4a7a5a" opacity="0.12" stroke="#4a7a5a" stroke-width="1.5" stroke-opacity="0.4"/>
+    <text x="682" y="40" text-anchor="middle" font-size="15" font-weight="bold" fill="#4a7a5a">Earn the right</text>
+    <text x="682" y="60" text-anchor="middle" font-size="13" fill="#5a6a5a">Now ask questions.</text>
+  </g>
+  <text x="430" y="330" text-anchor="middle" font-size="16" fill="#3a2a1a" opacity="0.7">"I couldn't improve anything while the team felt threatened by the improvement."</text>
+  <text x="430" y="358" text-anchor="middle" font-size="14" fill="#7a6a5a" opacity="0.6">Trust is the input. Engineering practices are the output.</text>
+</svg>
