@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250">
+  <rect width="800" height="250" fill="#1a1a1a"/>
+  
+  <!-- Left side: old-school principles -->
+  <g transform="translate(150, 40)">
+    <rect x="0" y="0" width="180" height="170" rx="8" fill="#222" stroke="#555" stroke-width="1"/>
+    <text x="15" y="28" font-family="system-ui,sans-serif" font-size="10" fill="#888">Small functions</text>
+    <text x="15" y="48" font-family="system-ui,sans-serif" font-size="10" fill="#888">Meaningful names</text>
+    <text x="15" y="68" font-family="system-ui,sans-serif" font-size="10" fill="#888">DRY</text>
+    <text x="15" y="88" font-family="system-ui,sans-serif" font-size="10" fill="#888">Single responsibility</text>
+    <text x="15" y="108" font-family="system-ui,sans-serif" font-size="10" fill="#888">TDD</text>
+    <text x="15" y="128" font-family="system-ui,sans-serif" font-size="10" fill="#888">Code review</text>
+    <text x="15" y="148" font-family="system-ui,sans-serif" font-size="10" fill="#888">Idiomatic style</text>
+    <text x="15" y="165" font-family="system-ui,sans-serif" font-size="9" fill="#555">shaped for human cognition</text>
+  </g>
+  
+  <!-- Arrow -->
+  <g transform="translate(370, 105)">
+    <line x1="0" y1="20" x2="55" y2="20" stroke="#4a9eff" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="55,14 68,20 55,26" fill="#4a9eff"/>
+  </g>
+  
+  <!-- Right side: new world constraints -->
+  <g transform="translate(470, 40)">
+    <rect x="0" y="0" width="180" height="170" rx="8" fill="#222" stroke="#4a9eff" stroke-width="1.5"/>
+    <text x="15" y="28" font-family="system-ui,sans-serif" font-size="10" fill="#ccc">Bounded agent tasks</text>
+    <text x="15" y="48" font-family="system-ui,sans-serif" font-size="10" fill="#ccc">Spec clarity &amp; glossaries</text>
+    <text x="15" y="68" font-family="system-ui,sans-serif" font-size="10" fill="#ccc">Skills &amp; reusable specs</text>
+    <text x="15" y="88" font-family="system-ui,sans-serif" font-size="10" fill="#ccc">Path scoping</text>
+    <text x="15" y="108" font-family="system-ui,sans-serif" font-size="10" fill="#ccc">Immutable test contracts</text>
+    <text x="15" y="128" font-family="system-ui,sans-serif" font-size="10" fill="#ccc">CI drift detection</text>
+    <text x="15" y="148" font-family="system-ui,sans-serif" font-size="10" fill="#ccc">Steering files</text>
+    <text x="15" y="165" font-family="system-ui,sans-serif" font-size="9" fill="#4a9eff">shaped for agent reliability</text>
+  </g>
+</svg>

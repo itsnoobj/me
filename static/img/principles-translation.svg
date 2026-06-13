@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="800" height="520" fill="#1a1a1a"/>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-size="16" font-weight="600" fill="#e0e0e0">The Principles Didn't Die — They Moved Up</text>
+
+  <!-- Column headers -->
+  <rect x="30" y="55" width="220" height="32" rx="4" fill="#2a2a2a"/>
+  <rect x="260" y="55" width="30" height="32" rx="4" fill="#2a2a2a"/>
+  <rect x="300" y="55" width="230" height="32" rx="4" fill="#2a2a2a"/>
+  <rect x="540" y="55" width="230" height="32" rx="4" fill="#2a2a2a"/>
+  <text x="140" y="76" text-anchor="middle" font-size="11" font-weight="600" fill="#888">Old Principle</text>
+  <text x="275" y="76" text-anchor="middle" font-size="11" fill="#4a9eff">→</text>
+  <text x="415" y="76" text-anchor="middle" font-size="11" font-weight="600" fill="#888">New Equivalent</text>
+  <text x="655" y="76" text-anchor="middle" font-size="11" font-weight="600" fill="#888">Why It Still Matters</text>
+
+  <!-- Row 1 -->
+  <rect x="30" y="95" width="740" height="40" rx="3" fill="#222"/>
+  <text x="140" y="119" text-anchor="middle" font-size="11" fill="#ccc">Small functions</text>
+  <text x="275" y="119" text-anchor="middle" font-size="11" fill="#4a9eff">→</text>
+  <text x="415" y="119" text-anchor="middle" font-size="11" fill="#4a9eff">Bounded agent tasks</text>
+  <text x="655" y="119" text-anchor="middle" font-size="10" fill="#777">Agents degrade with scope creep</text>
+
+  <!-- Row 2 -->
+  <rect x="30" y="140" width="740" height="40" rx="3" fill="#1e1e1e"/>
+  <text x="140" y="164" text-anchor="middle" font-size="11" fill="#ccc">Meaningful names</text>
+  <text x="275" y="164" text-anchor="middle" font-size="11" fill="#4a9eff">→</text>
+  <text x="415" y="164" text-anchor="middle" font-size="11" fill="#4a9eff">Spec clarity &amp; glossaries</text>
+  <text x="655" y="164" text-anchor="middle" font-size="10" fill="#777">Ambiguity → hallucination</text>
+
+  <!-- Row 3 -->
+  <rect x="30" y="185" width="740" height="40" rx="3" fill="#222"/>
+  <text x="140" y="209" text-anchor="middle" font-size="11" fill="#ccc">DRY</text>
+  <text x="275" y="209" text-anchor="middle" font-size="11" fill="#4a9eff">→</text>
+  <text x="415" y="209" text-anchor="middle" font-size="11" fill="#4a9eff">Skills &amp; reusable specs</text>
+  <text x="655" y="209" text-anchor="middle" font-size="10" fill="#777">Agents repeat unless patterns are explicit</text>
+
+  <!-- Row 4 -->
+  <rect x="30" y="230" width="740" height="40" rx="3" fill="#1e1e1e"/>
+  <text x="140" y="254" text-anchor="middle" font-size="11" fill="#ccc">No magic numbers</text>
+  <text x="275" y="254" text-anchor="middle" font-size="11" fill="#4a9eff">→</text>
+  <text x="415" y="254" text-anchor="middle" font-size="11" fill="#4a9eff">Invariants with stable IDs</text>
+  <text x="655" y="254" text-anchor="middle" font-size="10" fill="#777">INV-1 is enforceable; a threshold isn't</text>
+
+  <!-- Row 5 -->
+  <rect x="30" y="275" width="740" height="40" rx="3" fill="#222"/>
+  <text x="140" y="299" text-anchor="middle" font-size="11" fill="#ccc">Separation of concerns</text>
+  <text x="275" y="299" text-anchor="middle" font-size="11" fill="#4a9eff">→</text>
+  <text x="415" y="299" text-anchor="middle" font-size="11" fill="#4a9eff">Path scoping &amp; bounded autonomy</text>
+  <text x="655" y="299" text-anchor="middle" font-size="10" fill="#777">Can't break what it can't see</text>
+
+  <!-- Row 6 -->
+  <rect x="30" y="320" width="740" height="40" rx="3" fill="#1e1e1e"/>
+  <text x="140" y="344" text-anchor="middle" font-size="11" fill="#ccc">Code review</text>
+  <text x="275" y="344" text-anchor="middle" font-size="11" fill="#4a9eff">→</text>
+  <text x="415" y="344" text-anchor="middle" font-size="11" fill="#4a9eff">Spec drift detection &amp; CI gates</text>
+  <text x="655" y="344" text-anchor="middle" font-size="10" fill="#777">Deterministic &gt; human skimming 1200 LOC</text>
+
+  <!-- Row 7 -->
+  <rect x="30" y="365" width="740" height="40" rx="3" fill="#222"/>
+  <text x="140" y="389" text-anchor="middle" font-size="11" fill="#ccc">TDD</text>
+  <text x="275" y="389" text-anchor="middle" font-size="11" fill="#4a9eff">→</text>
+  <text x="415" y="389" text-anchor="middle" font-size="11" fill="#4a9eff">TDD as immutable contract</text>
+  <text x="655" y="389" text-anchor="middle" font-size="10" fill="#777">Agent will "fix" tests if it can touch them</text>
+
+  <!-- Row 8 -->
+  <rect x="30" y="410" width="740" height="40" rx="3" fill="#1e1e1e"/>
+  <text x="140" y="434" text-anchor="middle" font-size="11" fill="#ccc">Idiomatic style</text>
+  <text x="275" y="434" text-anchor="middle" font-size="11" fill="#4a9eff">→</text>
+  <text x="415" y="434" text-anchor="middle" font-size="11" fill="#4a9eff">Steering files &amp; conventions</text>
+  <text x="655" y="434" text-anchor="middle" font-size="10" fill="#777">Follows what's written, not culture</text>
+
+  <!-- Row 9 -->
+  <rect x="30" y="455" width="740" height="40" rx="3" fill="#222"/>
+  <text x="140" y="479" text-anchor="middle" font-size="11" fill="#ccc">Documentation</text>
+  <text x="275" y="479" text-anchor="middle" font-size="11" fill="#4a9eff">→</text>
+  <text x="415" y="479" text-anchor="middle" font-size="11" fill="#4a9eff">Knowledge as code (skills, NEVER rules)</text>
+  <text x="655" y="479" text-anchor="middle" font-size="10" fill="#777">Prompts evaporate; files persist</text>
+</svg>
