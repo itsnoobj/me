@@ -1,0 +1,35 @@
+.askAgent {
+  margin: 0.5rem 0 1.5rem;
+}
+
+.question {
+  font-size: 0.85rem;
+  opacity: 0.6;
+  margin-bottom: 0.4rem;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.option {
+  background: none;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  transition: opacity 0.15s ease, background 0.15s ease;
+}
+
+.option:hover {
+  background: var(--ifm-color-emphasis-100);
+  opacity: 1;
+}
+
+.divider {
+  opacity: 0.4;
+}
