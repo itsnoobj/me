@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" fill="none">
+  <rect width="900" height="420" fill="#1a1a1a"/>
+  <!-- LEFT SIDE: In Person -->
+  <text x="220" y="45" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#4a9eff" opacity="0.9" font-weight="600">In Person</text>
+  <!-- Two people facing each other -->
+  <!-- Person A -->
+  <circle cx="150" cy="120" r="22" fill="none" stroke="#4a9eff" stroke-width="2"/>
+  <line x1="150" y1="142" x2="150" y2="195" stroke="#4a9eff" stroke-width="2"/>
+  <line x1="150" y1="160" x2="125" y2="180" stroke="#4a9eff" stroke-width="2"/>
+  <line x1="150" y1="160" x2="175" y2="180" stroke="#4a9eff" stroke-width="2"/>
+  <!-- Person B -->
+  <circle cx="290" cy="120" r="22" fill="none" stroke="#4a9eff" stroke-width="2"/>
+  <line x1="290" y1="142" x2="290" y2="195" stroke="#4a9eff" stroke-width="2"/>
+  <line x1="290" y1="160" x2="265" y2="180" stroke="#4a9eff" stroke-width="2"/>
+  <line x1="290" y1="160" x2="315" y2="180" stroke="#4a9eff" stroke-width="2"/>
+  <!-- Connection waves between them -->
+  <path d="M175,120 Q220,105 265,120" stroke="#4a9eff" stroke-width="1.5" fill="none" opacity="0.5" stroke-dasharray="4,3"/>
+  <path d="M175,130 Q220,145 265,130" stroke="#4a9eff" stroke-width="1.5" fill="none" opacity="0.3" stroke-dasharray="4,3"/>
+  <!-- Warm glow -->
+  <circle cx="220" cy="140" r="50" fill="#4a9eff" opacity="0.04"/>
+  <!-- Outcomes -->
+  <text x="220" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#4a9eff" opacity="0.8">👋 "Hey, got a sec?"</text>
+  <text x="220" y="265" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#4a9eff" opacity="0.7">eye contact · tone · feedback loop</text>
+  <text x="220" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#4a9eff" font-weight="600">→ helps immediately</text>
+  <!-- DIVIDER -->
+  <line x1="450" y1="50" x2="450" y2="330" stroke="#555" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.4"/>
+  <text x="450" y="350" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#666">same person · same question</text>
+  <!-- RIGHT SIDE: Behind a Screen -->
+  <text x="680" y="45" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#c45a3c" opacity="0.9" font-weight="600">Behind a Screen</text>
+  <!-- Person A at laptop -->
+  <circle cx="590" cy="120" r="22" fill="none" stroke="#c45a3c" stroke-width="2" opacity="0.7"/>
+  <line x1="590" y1="142" x2="590" y2="195" stroke="#c45a3c" stroke-width="2" opacity="0.7"/>
+  <line x1="590" y1="160" x2="565" y2="180" stroke="#c45a3c" stroke-width="2" opacity="0.7"/>
+  <line x1="590" y1="160" x2="615" y2="175" stroke="#c45a3c" stroke-width="2" opacity="0.7"/>
+  <!-- Laptop/screen in front of person A -->
+  <rect x="608" y="155" width="30" height="22" rx="3" fill="none" stroke="#c45a3c" stroke-width="1.5" opacity="0.5"/>
+  <!-- Person B - faded, far away -->
+  <circle cx="770" cy="120" r="22" fill="none" stroke="#c45a3c" stroke-width="1.5" opacity="0.3"/>
+  <line x1="770" y1="142" x2="770" y2="195" stroke="#c45a3c" stroke-width="1.5" opacity="0.3"/>
+  <line x1="770" y1="160" x2="745" y2="180" stroke="#c45a3c" stroke-width="1.5" opacity="0.3"/>
+  <line x1="770" y1="160" x2="795" y2="180" stroke="#c45a3c" stroke-width="1.5" opacity="0.3"/>
+  <!-- Broken/faded connection -->
+  <line x1="640" y1="130" x2="745" y2="130" stroke="#c45a3c" stroke-width="1" opacity="0.2" stroke-dasharray="3,6"/>
+  <!-- Message bubble floating -->
+  <rect x="655" y="108" width="75" height="25" rx="5" fill="#c45a3c" opacity="0.08" stroke="#c45a3c" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="692" y="124" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#c45a3c" opacity="0.4">hey, got a sec?</text>
+  <!-- Outcomes -->
+  <text x="680" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#c45a3c" opacity="0.7">💬 Slack message sent</text>
+  <text x="680" y="265" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#c45a3c" opacity="0.5">no cues · no feedback · no presence</text>
+  <text x="680" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#c45a3c" font-weight="600" opacity="0.8">→ read. no reply.</text>
+  <!-- Title -->
+  <text x="450" y="390" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="600" fill="#e0e0e0">The Screen Between Us</text>
+</svg>

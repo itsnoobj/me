@@ -1,0 +1,154 @@
+---
+slug: the-screen-between-us
+title: "The Screen Between Us: Why the Same Person Helps in Person and Ghosts on Slack"
+authors: [jeevan_dc]
+tags: [psychology, communication, collaboration, culture]
+date: 2026-06-13
+image: /img/screen-between-us-banner.png
+---
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <img src="/img/screen-between-us-banner.svg" alt="The Screen Between Us — social presence and cooperation" style={{width: '100%', maxWidth: '700px', borderRadius: '8px'}} />
+</div>
+
+I walked up to someone's desk last month. Asked about a decision their team had made — something I needed context on before a planning conversation. They stopped what they were doing, turned around, and walked me through the reasoning. Four minutes. Problem solved.
+
+Two weeks later, same person, same kind of question. I sent it on Slack. Clean message. Tagged them. Even added context about what I'd already tried. Read receipt appeared. Then... nothing. Three hours later, a thumbs-up emoji. No answer.
+
+I don't think they became a worse person between those two interactions. I think the *environment* changed, and the environment was doing more heavy lifting than either of us realised.
+
+Now — here's the less flattering reading I have to be honest about. When I walked up to their desk, I *removed their option to defer*. They couldn't not-respond to a face standing in front of them. Maybe what I'm calling "cooperation triggered by presence" is partly just... politeness coercion? The inability to say "not now" to a body in your space? I don't know. I think both things are true simultaneously — presence genuinely activates empathy *and* it removes the escape hatch. I'm going to explore the presence side here because I find it more interesting, but I want to name the other thing too.
+
+<!-- truncate -->
+
+## Something I keep noticing
+
+Here's a pattern that keeps showing up. The same colleague who'd drop everything when you appear at their desk will let your Slack message sit unread for a day — or read it and somehow never circle back. The same team lead who's generous with time in a 1:1 will leave your async question dangling for a week.
+
+It's easy to tell yourself a story about this. They're busy. They're rude. They don't care. They're "bad at Slack." But I don't think any of that is quite right.
+
+There's a theory from 1976 — Short, Williams, and Christie called it *Social Presence Theory* — that named something I think we all intuitively feel: communication media vary in the degree to which they allow you to experience the other person as psychologically *present*. Not as information. As a person.
+
+And here's the uncomfortable bit: cooperation isn't a character trait. It's partially a product of that presence. When presence is high, helping feels automatic — almost involuntary. When presence drops, helping becomes a *decision*. A conscious, effortful decision. And under load, decisions get deferred.
+
+I keep thinking about this. When I'm standing in front of someone, I'm not *choosing* to be helpful. The environment is making helpfulness the path of least resistance. Their face is right there. I can see the frustration. Social norms fire before I've even thought about it. Behind a screen? Their request is just text in a queue. And there are forty-seven other texts in that queue.
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <img src="/img/screen-presence-spectrum.svg" alt="Social presence spectrum — from text to face-to-face" style={{width: '100%', maxWidth: '750px', borderRadius: '8px'}} />
+</div>
+
+## What the screen actually strips away
+
+I've been trying to break down what exactly disappears when interaction moves from face-to-face to text. It's not one thing — it's a whole stack of psychological machinery that normally runs on autopilot.
+
+**The feedback loop goes silent.** In person, you see the impact of your words in real time. Dismiss someone, watch their face fall. That loop regulates behaviour without conscious effort. Over text, it's gone. A [2005 study on egocentrism over email](https://psycnet.apa.org/record/2005-16025-011) found that people predict their tone will land correctly 78% of the time — recipients get it right 56%. We're wildly overconfident about what carries through text.
+
+**The reciprocity signal disappears.** [Cialdini's work on reciprocity](https://en.wikipedia.org/wiki/Influence:_Science_and_Practice) shows that humans return investments proportional to perceived cost. Walking to someone's desk costs something — time, flow, vulnerability. A Slack message costs nothing to send. Everyone knows it. So it creates no obligation. No pull.
+
+**The identity stage goes dark.** [Goffman (1956)](https://en.wikipedia.org/wiki/The_Presentation_of_Self_in_Everyday_Life) argued that social interaction is performance — we present ourselves for an audience. In person, I'm performing "helpful colleague" and the audience is right there. Behind a screen, who's watching? The incentive to be seen as generous quietly collapses.
+
+**Attention is already gone.** [Gloria Mark's research](https://www.gloriamark.com/attention-span) tracks that average time on a single task before switching was 2.5 minutes in 2004. By 2020, 47 seconds. When my message arrives, it's competing for attention that's already shattered. Responding costs a 25-minute context-switch. No wonder "later" wins.
+
+**The person becomes a notification.** [Suler (2004)](https://en.wikipedia.org/wiki/Online_disinhibition_effect) called it "invisibility" — when neither party can see the other, social pressure evaporates. A full human gets reduced to a name and a request. [Adam Grant's research](https://pubmed.ncbi.nlm.nih.gov/18729982/) showed this clearly: university fundraisers who met one scholarship recipient face-to-face for five minutes — suddenly the abstract "person you're raising money for" had a face — raised 171% more money afterwards. Making someone real changes everything.
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <img src="/img/screen-cooperation-decay.svg" alt="Cooperation decay — from physical presence to async text" style={{width: '100%', maxWidth: '750px', borderRadius: '8px'}} />
+</div>
+
+## The mechanism underneath
+
+I've explored the downstream effects of this before — the [game theory of cross-team ghosting](/notes/game-theory-engineering-collaboration), and [what teams hear when questions arrive over text](/notes/what-the-team-hears). This post is about the cause underneath both: screens strip away the conditions that make cooperation the default.
+
+[Lorin Hochstein](https://www.infoq.com/podcasts/failure-means-build-resilient-software-system/), a reliability engineer at Airbnb, made an observation recently that crystallized this for me. He runs incident review meetings — optional, synchronous, open to anyone. They're consistently well attended, including by senior architects with scarce time. Meanwhile, when he asks people to post what they learned in a Slack thread afterwards — almost no engagement. Same information, same people, same org. The meeting has presence. The thread is just text in a channel.
+
+## So what have I actually tried
+
+This is the part I care most about. I can't always be face-to-face. Remote work exists, time zones exist, async is necessary. The question I keep asking myself isn't "go back to the office" — it's *how do I get enough social presence across a screen to cross the cooperation threshold?*
+
+### Escalate the medium before escalating the ask
+
+Text → voice → video → face-to-face is a presence spectrum. Most of us default to text for everything, then get frustrated when it doesn't land.
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <img src="/img/screen-medium-escalation.svg" alt="Matching communication medium to relational weight of the request" style={{width: '100%', maxWidth: '750px', borderRadius: '8px'}} />
+</div>
+
+I've started matching the medium to the *relational weight* of the request, not the complexity. Asking for a quick code review? Text is fine. Asking someone to reprioritize their week? That's a call. Asking a team to take on unplanned work? That's a face — camera on, or in person if possible.
+
+The medium itself communicates how much it matters. A richer medium signals investment, and investment triggers reciprocity. I'll be honest — there's a fine line between "being intentional about channel choice" and "engineering social pressure." I'm not fully sure which side some of these tactics fall on. Maybe it doesn't matter as long as the underlying request is genuine and the relationship is real. But I notice the discomfort, and I think it's worth naming rather than pretending it isn't there.
+
+### Being specific about who's asking
+
+Most Slack messages read like tickets. "Hey, can you review this PR?" Efficient. Also completely abstract. There's no human behind it.
+
+What I've started doing instead: naming my situation. "I've been stuck on this for two days and I think you're the person who'd spot what I'm missing. It's blocking the release I promised for Thursday. Could you take 15 minutes to look at the approach? Happy to pair if that's easier."
+
+What changed? I made myself specific. Named the constraint, the vulnerability, lowered the cost. I'm no longer an abstract request — I'm a person with a situation. That specificity is the text equivalent of showing up at someone's desk.
+
+### Visible effort changes the dynamic
+
+If a Slack message costs nothing to send, making yours look like it cost something changes the dynamic.
+
+"I've narrowed it to these two options — here's my thinking on each. I'd value your perspective on which direction makes more sense" carries visible effort. "Thoughts?" doesn't.
+
+The more effort a message visibly contains, the more pull it creates. When someone can see I've put thought into the ask, ignoring it feels more like defecting on someone who invested. That friction is useful.
+
+### Lowering the cost of "yes"
+
+Here's something I've found works better than I expected: give people something to react to rather than something to compose.
+
+- "Which of these two approaches do you prefer? I'll go with your pick." — one word answer.
+- "I've drafted the config change here. If I don't hear objections by EOD, I'll merge it." — no response even needed.
+- "I'm thinking X because of Y. Poke holes if you see any?" — the task is concrete and bounded.
+
+The idea is to do the cognitive work upfront so they don't have to. When responding is cheaper than not responding, the whole calculus flips.
+
+### The stage comes back in shared channels
+
+[Goffman's](https://en.wikipedia.org/wiki/The_Presentation_of_Self_in_Everyday_Life) "stage" disappears in a DM. But it's still there in a public channel.
+
+I've noticed that asking something in a shared channel (when appropriate) gets faster responses than a DM with the same content. Partly because the "helpful colleague" identity has an audience again. Partly — let's be honest — because there's soft social pressure to not be seen ignoring a reasonable request. Both mechanisms are at work. I'm not sure one is more noble than the other.
+
+A gentle follow-up in a standup — "I sent you something about X, whenever you get a chance" — puts the interaction back on stage. It reconstructs the audience the screen removed. Whether that's "restoring healthy social dynamics" or "applying public pressure" probably depends on the relationship and the ask.
+
+### Face-to-face as investment, async as dividend
+
+This is the long game, but honestly the highest-leverage thing I've found.
+
+When I've met someone face-to-face — heard their laugh, seen them frustrated in a meeting, shared a coffee — their Slack messages get read in their voice. My internal model of them is rich enough that their text carries presence it wouldn't otherwise have. That's [Mahler's object constancy](https://en.wikipedia.org/wiki/Object_constancy) at work — a stable internal representation that persists even when the person isn't in front of you.
+
+One 15-minute video call with a new collaborator — no agenda, just "hey, wanted to put a face to the name" — pays dividends for months of async interaction afterwards. Offsites aren't about the presentations. They're about building the internal representations that make everything else work.
+
+### Small doses of synchronous presence
+
+Hochstein's team at Airbnb runs a quarterly storytelling session — "Once Upon an Incident." Three people, older impactful incidents, told as narratives. It maintains the social fabric that async interaction depends on.
+
+I've found even smaller versions work: a weekly 15-minute drop-in call with no agenda. A pairing session instead of an async code review. A five-minute voice memo instead of a long Slack message.
+
+The point isn't that synchronous is always better. It's that periodic synchronous contact maintains the relationship that async interactions *depend on*. Without it, the person slowly becomes just a name.
+
+### Just... saying it
+
+Sometimes the simplest move is just... saying it.
+
+"I know this is easy to lose in the noise, but this one's actually important to me."
+
+"I'd normally walk over for this but timezones — wanted to flag that it's not a casual ask."
+
+This works because it breaks the abstraction. It acknowledges the medium's limitation directly. It says: *I know what's happening here, I know this environment makes it easy to defer, and I'm telling you this one is different.* That meta-awareness is disarming — it makes non-response a conscious choice rather than a passive default. And conscious defection is much harder.
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <img src="/img/screen-presence-tactics.svg" alt="Tactics to restore social presence in async communication" style={{width: '100%', maxWidth: '750px', borderRadius: '8px'}} />
+</div>
+
+## The design problem we're not talking about
+
+Here's where I keep ending up. We design communication tools for throughput — how much information can flow, how fast, how asynchronously. Slack optimises for this. Email optimises for this. Every notification system optimises for this.
+
+Nobody is optimising for social presence. Nobody is asking "does this tool maintain the conditions that make cooperation feel natural?" We measure response time and channel activity. We don't measure whether people still feel like humans to each other.
+
+I keep landing on this framing, though I hold it loosely: cooperation isn't *only* a value people have or lack. It's at least partially an emergent property of environmental conditions. Strip certain conditions, and cooperation becomes harder — requires more conscious effort, more energy, more goodwill. The screen doesn't make cooperation impossible. It just makes it expensive. And expensive things happen less.
+
+The question isn't whether to use screens. It's whether we'll design our habits around them with the same intentionality we bring to system architecture. Because right now? I don't think most of us are. I know I wasn't, until I started paying attention to why the same person kept helping me in person and ghosting me on Slack.
+
+Maybe the answer isn't better tools. Maybe it's just... being more deliberate about when we use which ones. And being honest — with ourselves and with each other — about what gets lost in the gap. And maybe — this is the part I'm least sure about — being willing to admit that some of what we call "collaboration problems" are actually healthy boundaries that async communication finally made possible.

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" fill="none">
+  <rect width="800" height="280" fill="#1a1a1a"/>
+  <!-- Gradient bar -->
+  <defs>
+    <linearGradient id="presenceGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c45a3c" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#f0a500" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#4a9eff" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <rect x="100" y="100" width="600" height="12" rx="6" fill="url(#presenceGrad)" opacity="0.6"/>
+  <!-- Low presence end -->
+  <text x="100" y="80" text-anchor="start" font-family="system-ui, sans-serif" font-size="13" fill="#c45a3c" opacity="0.8">low presence</text>
+  <!-- High presence end -->
+  <text x="700" y="80" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" fill="#4a9eff" opacity="0.8">high presence</text>
+  <!-- Markers -->
+  <g font-family="system-ui, sans-serif" font-size="12">
+    <!-- Slack/text -->
+    <line x1="140" y1="115" x2="140" y2="140" stroke="#c45a3c" stroke-width="1.5" opacity="0.6"/>
+    <text x="140" y="158" text-anchor="middle" fill="#c45a3c" opacity="0.8">Slack</text>
+    <text x="140" y="175" text-anchor="middle" fill="#888" font-size="10">no cues, async</text>
+    <!-- Email -->
+    <line x1="250" y1="115" x2="250" y2="140" stroke="#c45a3c" stroke-width="1.5" opacity="0.5"/>
+    <text x="250" y="158" text-anchor="middle" fill="#d07040" opacity="0.8">Email</text>
+    <text x="250" y="175" text-anchor="middle" fill="#888" font-size="10">formal, delayed</text>
+    <!-- Voice memo -->
+    <line x1="380" y1="115" x2="380" y2="140" stroke="#f0a500" stroke-width="1.5" opacity="0.6"/>
+    <text x="380" y="158" text-anchor="middle" fill="#f0a500" opacity="0.8">Voice memo</text>
+    <text x="380" y="175" text-anchor="middle" fill="#888" font-size="10">tone, personality</text>
+    <!-- Video call -->
+    <line x1="530" y1="115" x2="530" y2="140" stroke="#4a9eff" stroke-width="1.5" opacity="0.5"/>
+    <text x="530" y="158" text-anchor="middle" fill="#5ab0ff" opacity="0.8">Video call</text>
+    <text x="530" y="175" text-anchor="middle" fill="#888" font-size="10">face, real-time</text>
+    <!-- In person -->
+    <line x1="660" y1="115" x2="660" y2="140" stroke="#4a9eff" stroke-width="1.5" opacity="0.7"/>
+    <text x="660" y="158" text-anchor="middle" fill="#4a9eff" opacity="0.9">In person</text>
+    <text x="660" y="175" text-anchor="middle" fill="#888" font-size="10">full embodiment</text>
+  </g>
+  <!-- Annotation -->
+  <text x="400" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#888" opacity="0.7">cooperation becomes automatic as presence increases →</text>
+  <text x="400" y="255" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#666">Short, Williams &amp; Christie (1976) · Social Presence Theory</text>
+</svg>

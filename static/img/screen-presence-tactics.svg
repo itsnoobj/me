@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" fill="none">
+  <rect width="800" height="380" fill="#1a1a1a"/>
+  <text x="400" y="35" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#e0e0e0" font-weight="600">Restoring Presence Through a Screen</text>
+  <text x="400" y="55" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#888">what each tactic actually restores</text>
+  <!-- Left column -->
+  <g font-family="system-ui, sans-serif">
+    <!-- Tactic 1 -->
+    <rect x="40" y="75" width="345" height="55" rx="8" fill="#4a9eff" opacity="0.06" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="60" y="98" font-size="12" fill="#4a9eff" opacity="0.9" font-weight="600">Escalate the medium</text>
+    <text x="60" y="118" font-size="11" fill="#888">restores: investment signal → reciprocity</text>
+    <!-- Tactic 2 -->
+    <rect x="40" y="140" width="345" height="55" rx="8" fill="#4a9eff" opacity="0.06" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="60" y="163" font-size="12" fill="#4a9eff" opacity="0.9" font-weight="600">Make yourself specific</text>
+    <text x="60" y="183" font-size="11" fill="#888">restores: the person behind the name</text>
+    <!-- Tactic 3 -->
+    <rect x="40" y="205" width="345" height="55" rx="8" fill="#4a9eff" opacity="0.06" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="60" y="228" font-size="12" fill="#4a9eff" opacity="0.9" font-weight="600">Show visible effort</text>
+    <text x="60" y="248" font-size="11" fill="#888">restores: reciprocity obligation (Cialdini)</text>
+    <!-- Tactic 4 -->
+    <rect x="40" y="270" width="345" height="55" rx="8" fill="#4a9eff" opacity="0.06" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="60" y="293" font-size="12" fill="#4a9eff" opacity="0.9" font-weight="600">Lower response cost</text>
+    <text x="60" y="313" font-size="11" fill="#888">restores: cooperation as path of least resistance</text>
+  </g>
+  <!-- Right column -->
+  <g font-family="system-ui, sans-serif">
+    <!-- Tactic 5 -->
+    <rect x="415" y="75" width="345" height="55" rx="8" fill="#f0a500" opacity="0.06" stroke="#f0a500" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="435" y="98" font-size="12" fill="#f0a500" opacity="0.9" font-weight="600">Use public visibility</text>
+    <text x="435" y="118" font-size="11" fill="#888">restores: the stage (Goffman's audience)</text>
+    <!-- Tactic 6 -->
+    <rect x="415" y="140" width="345" height="55" rx="8" fill="#f0a500" opacity="0.06" stroke="#f0a500" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="435" y="163" font-size="12" fill="#f0a500" opacity="0.9" font-weight="600">Build face-to-face, spend async</text>
+    <text x="435" y="183" font-size="11" fill="#888">restores: object constancy (rich mental model)</text>
+    <!-- Tactic 7 -->
+    <rect x="415" y="205" width="345" height="55" rx="8" fill="#f0a500" opacity="0.06" stroke="#f0a500" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="435" y="228" font-size="12" fill="#f0a500" opacity="0.9" font-weight="600">Synchronous micro-rituals</text>
+    <text x="435" y="248" font-size="11" fill="#888">restores: social fabric that async depends on</text>
+    <!-- Tactic 8 -->
+    <rect x="415" y="270" width="345" height="55" rx="8" fill="#f0a500" opacity="0.06" stroke="#f0a500" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="435" y="293" font-size="12" fill="#f0a500" opacity="0.9" font-weight="600">Name the gap explicitly</text>
+    <text x="435" y="313" font-size="11" fill="#888">restores: conscious engagement over passive drift</text>
+  </g>
+  <!-- Footer -->
+  <text x="400" y="360" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#666">each tactic simulates a piece of what face-to-face provides for free</text>
+</svg>
