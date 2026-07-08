@@ -248,8 +248,8 @@ export default function Talks(): React.JSX.Element {
         <h1>Talks</h1>
         <p className="talks-intro">
           A running list of conference talks, meetups, and community
-          appearances — mostly Kafka, distributed systems, and the occasional
-          detour.
+          appearances — Kafka, vector search, Git, platform engineering, org
+          change, whatever I was deep in at the time.
         </p>
 
         {talks.map((group) => (
