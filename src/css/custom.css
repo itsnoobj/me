@@ -121,6 +121,83 @@ article a {
   }
 }
 
+/* Talks page */
+.talks-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+}
+
+.talks-page h1 {
+  font-size: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.talks-intro {
+  font-size: 1.05rem;
+  opacity: 0.75;
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+
+.talks-year {
+  margin-bottom: 2.5rem;
+}
+
+.talks-year__label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  opacity: 0.65;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 0.5rem;
+}
+
+.talk-entry {
+  margin-bottom: 1.75rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--ifm-color-emphasis-200);
+}
+
+.talk-entry:last-child {
+  margin-bottom: 0;
+}
+
+.talk-entry__title {
+  font-size: 1.15rem;
+  margin-bottom: 0.25rem;
+}
+
+.talk-entry__title a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.talk-entry__meta {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+}
+
+.talk-entry__description {
+  font-size: 1rem;
+  line-height: 1.65;
+  opacity: 0.85;
+  margin-bottom: 0.5rem;
+}
+
+.talk-entry__links {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.talk-entry__links a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* Blog preamble */
 .blog-preamble {
   max-width: 900px;

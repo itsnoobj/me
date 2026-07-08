@@ -63,6 +63,7 @@ const config: Config = {
       title: "noobj.me",
       items: [
         { to: "/notes", label: "Notes", position: "left" },
+        { to: "/talks", label: "Talks", position: "left" },
       ],
     },
     footer: {
