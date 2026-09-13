@@ -27,6 +27,28 @@ const talks: YearGroup[] = [
     year: "2026",
     talks: [
       {
+        title:
+          "When Semantic Search Breaks in Your RAG Systems: RAM Walls, Silent Failures, and the Architecture Decisions",
+        eventUrl:
+          "https://osskorea2026.sched.com/event/2P8HG/when-semantic-search-breaks-in-your-rag-systems-ram-walls-silent-failures-and-the-architecture-decisions-jeevan-d-c-entain",
+        venue: "Open Source Summit Korea — The Linux Foundation",
+        location: "Seoul, South Korea",
+        date: "Aug 12, 2026",
+        description:
+          "The team shipped semantic search and it worked — then 100M vectors tripled the RAM bill overnight and filtered queries started silently returning zero results. The RAM math to run before any architecture decision, quantization that hits 32x compression at 95%+ recall, why filtered search is the #1 silent production failure, and when DiskANN, hybrid BM25+vector, or a specialized vector DB actually earns its place — trade-offs in plain English, with live demos.",
+        links: [
+          { label: "Watch", url: "https://www.youtube.com/watch?v=i8yZYGQz-us" },
+          {
+            label: "Slides (PDF)",
+            url: "https://github.com/itsnoobj/vectors-high-dimensional-data-storage-talk/blob/main/decks/vector_search_basics_to_scale.pdf",
+          },
+          {
+            label: "Write-up",
+            url: "https://github.com/itsnoobj/vectors-high-dimensional-data-storage-talk/blob/main/vector_search_basics_to_scale.md",
+          },
+        ],
+      },
+      {
         title: "Kafka & Time: The Hardest Dependency",
         eventUrl: "https://www.meetup.com/bangalore-kafka-data-ai/events/315066570/",
         venue: "Bangalore Apache Kafka®, Data & AI Meetup — InMobi",
