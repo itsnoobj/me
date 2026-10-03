@@ -27,6 +27,23 @@ const talks: YearGroup[] = [
     year: "2026",
     talks: [
       {
+        title: "From Embeddings to Search: Inside MongoDB Atlas Vector Search",
+        eventUrl: "https://www.meetup.com/mongodb-usergroup-hyderabad/events/316348822/",
+        venue: "Hyderabad MongoDB User Group — Entain India",
+        location: "Hyderabad, India",
+        date: "Sep 26, 2026",
+        description:
+          "What actually happens under a $vectorSearch query: the two-process engine (mongod + mongot) talking over a change stream, scalar/binary quantization squeezing billions of vectors into RAM, and how to measure and tune recall once the demo numbers stop looking real.",
+        links: [
+          { label: "Watch", url: "https://drive.google.com/file/d/1N3kloxlOcHdgCGjEIOF_DORJqRVrX7nk/view?usp=sharing" },
+          {
+            label: "Slides",
+            url: "https://github.com/itsnoobj/inside-mongodb-vector-db-architecture-talk/blob/main/inside_mongodb_vector_search.md",
+          },
+          { label: "Repo", url: "https://github.com/itsnoobj/inside-mongodb-vector-db-architecture-talk" },
+        ],
+      },
+      {
         title:
           "When Semantic Search Breaks in Your RAG Systems: RAM Walls, Silent Failures, and the Architecture Decisions",
         eventUrl:
