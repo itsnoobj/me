@@ -12,6 +12,7 @@ type Talk = {
   venue: string;
   location: string; // "City, Country"
   date: string; // display label, e.g. "Jun 2026"
+  image?: string; // cover slide, under static/talks/img/
   description: string;
   links?: Link[]; // recordings, decks, repos, etc. shown below the description
 };
@@ -32,6 +33,7 @@ const talks: YearGroup[] = [
         venue: "AI India",
         location: "Pune, India",
         date: "Nov 21, 2026",
+        image: "/talks/img/ai-india-pune-2026.jpg",
         description:
           "Forty PRs, all green, and the agent wrote both the code and the tests. Who checks the checker? Using one dropped ₹399 EMI fee as the running example: why evals should test the harness and not just the model, how to grade the tool route and not only the answer, building a golden set and calibrating an LLM judge, telling drift from regression, and turning user corrections into regression tests. With a hands-on demo where you break a small agent on purpose and see which checks notice.",
         links: [
@@ -48,6 +50,7 @@ const talks: YearGroup[] = [
         venue: "Hyderabad MongoDB User Group — Entain India",
         location: "Hyderabad, India",
         date: "Sep 26, 2026",
+        image: "/talks/img/mongodb-hyderabad-2026.jpg",
         description:
           "What actually happens under a $vectorSearch query: the two-process engine (mongod + mongot) talking over a change stream, scalar/binary quantization squeezing billions of vectors into RAM, and how to measure and tune recall once the demo numbers stop looking real.",
         links: [
@@ -67,6 +70,7 @@ const talks: YearGroup[] = [
         venue: "Open Source Summit Korea — The Linux Foundation",
         location: "Seoul, South Korea",
         date: "Aug 12, 2026",
+        image: "/talks/img/oss-korea-2026.jpg",
         description:
           "The team shipped semantic search and it worked — then 100M vectors tripled the RAM bill overnight and filtered queries started silently returning zero results. The RAM math to run before any architecture decision, quantization that hits 32x compression at 95%+ recall, why filtered search is the #1 silent production failure, and when DiskANN, hybrid BM25+vector, or a specialized vector DB actually earns its place — trade-offs in plain English, with live demos.",
         links: [
@@ -87,6 +91,7 @@ const talks: YearGroup[] = [
         venue: "Bangalore Apache Kafka®, Data & AI Meetup — InMobi",
         location: "Bengaluru, India",
         date: "Jun 20, 2026",
+        image: "/talks/img/kafka-time-2026.jpg",
         description:
           "Distributed systems are hard not because they span machines, but because they span time. A look at real production outages caused by partition keys, timestamp modes, and windowing contracts nobody consciously chose.",
         links: [
@@ -99,6 +104,7 @@ const talks: YearGroup[] = [
         venue: "Sooner Safer Happier EMEA Meetup (BVSSH)",
         location: "Remote / EMEA",
         date: "Jun 16, 2026",
+        image: "/talks/img/bvssh-2026.jpg",
         description:
           "How a small acqui-hired startup team, dropped into a 4,000+ person legacy organisation, actually changed the way it worked from the inside — years of setbacks, small wins, and the slow work of building trust rather than pushing best practices.",
         links: [
@@ -112,6 +118,7 @@ const talks: YearGroup[] = [
         venue: "DARLing Meetup — IBM, Bellandur",
         location: "Bengaluru, India",
         date: "May 16, 2026",
+        image: "/talks/img/owasp-llm-top10-2026.jpg",
         description:
           "A live, hands-on session breaking and fixing LLM applications against the OWASP Top 10 for LLM risks — prompt injection, misinformation, excessive agency, supply chain, and more, each with a real demo and a real fix.",
         links: [
@@ -125,6 +132,7 @@ const talks: YearGroup[] = [
         venue: "HOW2026 — PostgreSQL & IvorySQL Eco Conference",
         location: "Jinan, China",
         date: "Apr 27–28, 2026",
+        image: "/talks/img/pgvector-china-2026.jpg",
         description:
           "Inside pgvector: how embeddings get stored (and TOASTed), why B-trees can't index vectors, and how IVFFlat and HNSW trade off build time, recall, and speed — plus quantization and the production gotchas that show up past the demo.",
         links: [
@@ -138,6 +146,7 @@ const talks: YearGroup[] = [
         venue: "AI India",
         location: "Bengaluru, India",
         date: "Apr 12, 2026",
+        image: "/talks/img/ai-india-bengaluru-2026.jpg",
         description:
           "What actually happens after you call an embedding API — how text becomes vectors, how they're stored, and how semantic search finds the closest match. Starts with a brute-force scan across 50,000 vectors, then shows how IVFFlat and HNSW deliver 50–150x speedups, all in plain SQL you can run on your laptop.",
         links: [
@@ -151,6 +160,7 @@ const talks: YearGroup[] = [
         venue: "mitramandal.ai Episode 3 — ClayWorks Create (hosted by DailyRounds/Marrow)",
         location: "Bengaluru, India",
         date: "Apr 11, 2026",
+        image: "/talks/img/mitramandal-2026.jpg",
         description:
           "What breaks when you push vector search to 100M+ rows on Postgres, how IVF/HNSW and quantization help, and why DiskANN plus hybrid BM25/vector search mattered in production.",
         links: [
@@ -169,6 +179,7 @@ const talks: YearGroup[] = [
         venue: "Command Line Heroes Episode 2 — Bengaluru",
         location: "Bengaluru, India",
         date: "Oct 25, 2025",
+        image: "/talks/img/git-internals-2025.jpg",
         description:
           "A practical deep dive into Git internals, for using Git with more confidence than the everyday porcelain commands give you.",
         links: [
@@ -180,6 +191,7 @@ const talks: YearGroup[] = [
         venue: "Hyderabad PostgreSQL User Group",
         location: "Hyderabad, India",
         date: "Dec 19, 2025",
+        image: "/talks/img/pgvector-hyderabad-2025.jpg",
         description:
           "How pgvector represents and indexes high-dimensional embeddings inside PostgreSQL, and what that means for query performance at scale.",
         links: [
@@ -199,6 +211,7 @@ const talks: YearGroup[] = [
         venue: "Platform Engineering Meetup — Harness.io",
         location: "Bengaluru, India",
         date: "Sep 14, 2024",
+        image: "/talks/img/backstage-2024.jpg",
         description:
           "How Backstage, the open-source developer portal, tackles knowledge discovery, code ownership, system interfaces, dependency mapping, tech radar, and service creation.",
         links: [
@@ -257,38 +270,53 @@ const talks: YearGroup[] = [
 ];
 
 function TalkEntry({ talk }: { talk: Talk }): React.JSX.Element {
+  const imageHref = talk.eventUrl ?? talk.links?.[0]?.url;
   return (
-    <div className="talk-entry">
-      <h3 className="talk-entry__title">
-        {talk.eventUrl ? (
-          <a href={talk.eventUrl} target="_blank" rel="noopener noreferrer">
-            {talk.title}
-          </a>
-        ) : (
-          talk.title
-        )}
-      </h3>
-      <p className="talk-entry__meta">
-        {talk.venue} · {talk.location} · {talk.date}
-      </p>
-      <p className="talk-entry__description">{talk.description}</p>
-      {talk.links && talk.links.length > 0 && (
-        <p className="talk-entry__links">
-          {talk.links.map((link, i) => (
-            <React.Fragment key={link.url}>
-              {i > 0 && " · "}
-              <a
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`${link.label} — ${talk.title}`}
-              >
-                {link.label} →
-              </a>
-            </React.Fragment>
-          ))}
-        </p>
+    <div className={`talk-entry${talk.image ? " talk-entry--with-image" : ""}`}>
+      {talk.image && (
+        <a
+          className="talk-entry__image"
+          href={imageHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          tabIndex={-1}
+          aria-hidden="true"
+        >
+          <img src={talk.image} alt="" loading="lazy" />
+        </a>
       )}
+      <div className="talk-entry__body">
+        <h3 className="talk-entry__title">
+          {talk.eventUrl ? (
+            <a href={talk.eventUrl} target="_blank" rel="noopener noreferrer">
+              {talk.title}
+            </a>
+          ) : (
+            talk.title
+          )}
+        </h3>
+        <p className="talk-entry__meta">
+          {talk.venue} · {talk.location} · {talk.date}
+        </p>
+        <p className="talk-entry__description">{talk.description}</p>
+        {talk.links && talk.links.length > 0 && (
+          <p className="talk-entry__links">
+            {talk.links.map((link, i) => (
+              <React.Fragment key={link.url}>
+                {i > 0 && " · "}
+                <a
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${link.label} — ${talk.title}`}
+                >
+                  {link.label} →
+                </a>
+              </React.Fragment>
+            ))}
+          </p>
+        )}
+      </div>
     </div>
   );
 }
