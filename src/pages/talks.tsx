@@ -27,6 +27,22 @@ const talks: YearGroup[] = [
     year: "2026",
     talks: [
       {
+        title: "How do we build reliable agents and ship with confidence? Evals and silent failure in production agents",
+        eventUrl: "https://www.ai-india.ai/",
+        venue: "AI India",
+        location: "Pune, India",
+        date: "Nov 21, 2026",
+        description:
+          "Forty PRs, all green, and the agent wrote both the code and the tests. Who checks the checker? Using one dropped ₹399 EMI fee as the running example: why evals should test the harness and not just the model, how to grade the tool route and not only the answer, building a golden set and calibrating an LLM judge, telling drift from regression, and turning user corrections into regression tests. With a hands-on demo where you break a small agent on purpose and see which checks notice.",
+        links: [
+          {
+            label: "Slides",
+            url: "https://docs.google.com/presentation/d/e/2PACX-1vRNzMCVfsjlNc11ZkhgRMfBYEZIUhKrkarwJd2ghfXM1MWp-eks_3XPDQyBtzY_mZDIJb3jqvdDURVn/pub",
+          },
+          { label: "Demo", url: "https://itsnoobj.github.io/evals-labs/" },
+        ],
+      },
+      {
         title:
           "When Semantic Search Breaks in Your RAG Systems: RAM Walls, Silent Failures, and the Architecture Decisions",
         eventUrl:
