@@ -123,7 +123,7 @@ article a {
 
 /* Talks page */
 .talks-page {
-  max-width: 720px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 4rem 1.5rem 6rem;
 }
@@ -158,6 +158,42 @@ article a {
   margin-bottom: 1.75rem;
   padding-left: 1rem;
   border-left: 2px solid var(--ifm-color-emphasis-200);
+}
+
+.talk-entry--with-image {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.talk-entry__image {
+  flex: 0 0 280px;
+  display: block;
+  line-height: 0;
+}
+
+.talk-entry__image img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.talk-entry__body {
+  min-width: 0;
+}
+
+@media (max-width: 700px) {
+  .talk-entry--with-image {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .talk-entry__image {
+    flex-basis: auto;
+    width: 100%;
+  }
 }
 
 .talk-entry:last-child {
